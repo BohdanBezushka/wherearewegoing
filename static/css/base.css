@@ -1,0 +1,55 @@
+/*Google Fonts*/
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Geologica:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*                 templates/base.html            */
+
+/*Global style */
+
+*, body{
+    background: #000;
+    color:white;
+    font-family: 'Geologica', sans-serif;
+}
+
+/* Header */
+input.form-control {
+  margin-right: 15px;
+}
+
+.icon {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.logo-font {
+  text-transform: uppercase;
+}
+
+.main-logo-link {
+  width: fit-content;
+}
+
+/* -------------------------------- Media Queries */
+
+/* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+.container {
+  max-width: 80%;
+}
+}
+
+/* fixed top navbar only on medium and up */
+@media (min-width: 992px) {
+  .fixed-top-desktop-only {
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      z-index: 1030;
+  }
+
+  .header-container {
+      padding-top: 164px;
+  }
+}
