@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import Festical
+from .models import Festival
 
 # Create your views here.
 
@@ -10,7 +10,7 @@ def all_festivals(request):
     festivals = Festival.objects.all()
 
     context = {
-        'festivals': gestivals,
+        'festivals': festivals,
     }
 
     return render(request, 'festivals/festivals.html', context)
