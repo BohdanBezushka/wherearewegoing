@@ -52,6 +52,16 @@ h4.logo-font.my-1{
   border: 1px solid transparent;
 }
 
+.overlay {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: white;
+	z-index: -1;
+}
+
 /*                 home/index.html            */
 
 .intro{

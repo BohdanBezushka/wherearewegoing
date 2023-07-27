@@ -5,9 +5,10 @@ from .models import Festival
 
 
 def all_festivals(request):
-    """ A view to show all festivals, including sorting and search queries """
+    """ A view to show all festivals and search queries """
 
     festivals = Festival.objects.all()
+    print(festivals)
 
     context = {
         'festivals': festivals,
