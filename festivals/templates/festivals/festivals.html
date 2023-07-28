@@ -25,7 +25,7 @@
             <div class="row">
                 {% for festival in festivals %}
                     <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                        <div class="card h-100 border-0">
+                        <div id="card-border" class="card h-100 border-0 pb-0 card-festival">
                             {% if festival.image %}
                             <a href="">
                                 <img class="card-img-top img-fluid" src="{{ festival.image.url }}" alt="{{ festival.name }}">
@@ -35,18 +35,15 @@
                                 <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ festival.name }}">
                             </a>
                             {% endif %}
-                            <div class="card-body pb-0">
-                                <p class="mb-0">{{ festival.name }}</p>
+                            <div class="card-body pb-0 card-festival">
+                                <p class="mb-0 card-festival">{{ festival.name }}</p>
                             </div>
-                            <div class="card-footer bg-white pt-0 border-0 text-left">
-                                <div class="row">
-                                    <div class="col">
-                                        <p class="lead mb-0 text-left font-weight-bold">${{ festival.price }}</p>
-                                        {% if festival.rating %}
-                                            <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
-                                        {% else %}
-                                            <small class="text-muted">No Rating</small>
-                                        {% endif %}
+                            <div class="card-footer pt-0 border-0 text-left card-festival">
+                                <div class="row card-festival">
+                                    <div class="col card-festival">
+                                        <p class="lead mb-0 text-left font-weight-bold card-festival">{{ festival.date }}</p>
+                                        <p class="lead mb-0 text-left font-weight-bold card-festival">{{ festival.location}}</p>
+                                        <p class="lead mb-0 text-left font-weight-bold card-festival">${{ festival.price }}</p>
                                     </div>
                                 </div>
                             </div>
@@ -76,5 +73,6 @@
             </div>
         </div>
     </div>
+    <h1>holaa</h1>
 </div>
 {% endblock %}

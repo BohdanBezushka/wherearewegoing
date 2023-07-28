@@ -46,6 +46,17 @@ h4.logo-font.my-1{
 );
 }
 
+/*Card festival*/
+.card-festival{
+  background: white;
+  color: black;
+}
+
+#card-border{
+  border-radius: 20px;
+  border-color: 10px solid white;
+}
+
 /*   Mobile navigation bar  */
 .navbar-toggler {
   background-color: white;
