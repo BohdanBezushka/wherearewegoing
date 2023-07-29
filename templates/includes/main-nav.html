@@ -5,9 +5,9 @@
                 Festivals
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="" class="dropdown-item">By Price</a>
-                <a href="" class="dropdown-item ">By Country</a>
-                <a href="" class="dropdown-item ">By Date</a>
+                <a href="{% url 'festivals' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
+                <a href="{% url 'festivals' %}?sort=location&direction=asc" class="dropdown-item ">By Location</a>
+                <a href="{% url 'festivals' %}?sort=date&direction=asc" class="dropdown-item ">By Date</a>
                 <a href="{% url 'festivals' %}" class="dropdown-item">All Festivals</a>
             </div>
         </li>
