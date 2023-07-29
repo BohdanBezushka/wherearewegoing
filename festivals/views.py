@@ -11,6 +11,8 @@ def all_festivals(request):
 
     festivals = Festival.objects.all()
     query = None
+    sort = None
+    direction = None
 
     """User can search in search bar"""
     if request.GET:
