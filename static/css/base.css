@@ -55,6 +55,13 @@ h4.logo-font.my-1{
   right: 10px;
 }
 
+.btn-outline-black {
+  background: white;
+  color: black;
+  border: 1px solid black;
+}
+
+
 .btt-link {
   cursor: pointer;
 }
