@@ -1,5 +1,7 @@
 {% extends "base.html" %}
 {% load static %}
+<!--Multiply the number of tickets by the price of a single ticket-->
+{% load bag_tools %}
 
 {% block page_header %}
     <div class="container">
@@ -83,7 +85,7 @@
                                 </td>
 
                                 <td class="py-3">
-                                    <p class="my-0">${{ item.festival.price }}</p>
+                                    <p class="my-0">${{ item.festival.price | calc_subtotal:item.quantity}}</p>
                                 </td>
                             </tr>
                         {% endfor %}

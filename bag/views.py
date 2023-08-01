@@ -42,7 +42,7 @@ def adjust_bag(request, item_id):
 
 
 def remove_from_bag(request, item_id):
-    """Remove the item from the shopping bag"""
+    """Remove the ticket from the shopping bag"""
 
     try:
         bag = request.session.get('bag', {})
