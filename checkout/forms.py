@@ -7,6 +7,9 @@ class UserDataForm(forms.ModelForm):
         model = UserData
         fields = ('full_name', 'email', 'phone_number',
                   'user_id', 'date_of_birth',)
+        widgets = {
+            'date_of_birth': forms.DateInput(attrs={'type': 'date'}),
+        }
 
     def __init__(self, *args, **kwargs):
         """
