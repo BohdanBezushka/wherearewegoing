@@ -85,7 +85,18 @@ def checkout(request):
             messages.error(request, "There's nothing in your bag at the moment.")
             return redirect(reverse('festivals'))
 
-        userdata_form = UserDataForm()
+        # Prefill the form with any info the user maintains in their profile.
+        if request.user.is_authenticated:
+            try:
+                profile = UserProfile.objects.get(user=request.user)
+                userdata_form = UserDataForm(initial={
+                    'phone_number': profile.default_phone_number,
+                    'email': profile.user.email,
+                })
+            except UserProfile.DoesNotExist:
+                userdata_form = UserDataForm()
+        else:
+            userdata_form = UserDataForm()
 
     if not stripe_public_key:
         messages.warning(request, 'Stripe public key is missing. \
