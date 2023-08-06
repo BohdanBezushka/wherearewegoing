@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.db.models.functions import Lower
+from django.contrib.auth.decorators import login_required
 from django.contrib import messages
 from django.db.models import Q
 
@@ -66,8 +67,13 @@ def festival_detail(request, festival_id):
 
     return render(request, 'festivals/festival_detail.html', context)
 
+
+@login_required
 def add_festival(request):
     """ Add a festival to the store """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only store owners can do that.')
+        return redirect(reverse('home'))
 
     if request.method == 'POST':
         form = FestivalForm(request.POST, request.FILES)
@@ -89,8 +95,13 @@ def add_festival(request):
     return render(request, template, context)
 
 
+@login_required
 def edit_festival(request, festival_id):
     """ Edit a festival in the store """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only store owners can do that.')
+        return redirect(reverse('home'))
+
     festival = get_object_or_404(Festival, pk=festival_id)
     if request.method == 'POST':
         form = FestivalForm(request.POST, request.FILES, instance=festival)
@@ -113,8 +124,13 @@ def edit_festival(request, festival_id):
     return render(request, template, context)
 
 
+@login_required
 def delete_festival(request, festival_id):
     """ Delete a festival from the store """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only store owners can do that.')
+        return redirect(reverse('home'))
+
     festival = get_object_or_404(Festival, pk=festival_id)
     festival.delete()
     messages.success(request, 'Festival deleted!')
