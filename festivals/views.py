@@ -68,6 +68,18 @@ def festival_detail(request, festival_id):
 
 def add_festival(request):
     """ Add a festival to the store """
+
+    if request.method == 'POST':
+        form = FestivalForm(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Successfully added festival!')
+            return redirect(reverse('add_festival'))
+        else:
+            messages.error(request, 'Failed to add festival. Please ensure the form is valid.')
+    else:
+        form = FestivalForm()
+
     form = FestivalForm()
     template = 'festivals/add_festival.html'
     context = {
