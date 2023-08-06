@@ -33,6 +33,12 @@
                     <p class="lead mb-0 text-left font-weight-bold">Start date:{{ festival.date }}</p>
                     <p class="lead mb-0 text-left font-weight-bold">Location:{{ festival.location}}</p>
                     <p class="lead mb-0 text-left font-weight-bold">Price:${{ festival.price }}</p>
+                    {% if request.user.is_superuser %}
+                    <small class="ml-3">
+                        <a href="{% url 'edit_festival' festival.id %}">Edit</a> | 
+                        <a class="text-danger" href="{% url 'delete_festival' festival.id %}">Delete</a>
+                    </small>
+                    {% endif %}
                     
 
                     <!-- The user can choose the number of tickets-->
@@ -63,7 +69,6 @@
                                                 </span>
                                             </button>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>

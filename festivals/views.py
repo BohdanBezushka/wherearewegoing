@@ -72,9 +72,9 @@ def add_festival(request):
     if request.method == 'POST':
         form = FestivalForm(request.POST, request.FILES)
         if form.is_valid():
-            form.save()
+            festival = form.save()
             messages.success(request, 'Successfully added festival!')
-            return redirect(reverse('add_festival'))
+            return redirect(reverse('festival_detail', args=[festival.id]))
         else:
             messages.error(request, 'Failed to add festival. Please ensure the form is valid.')
     else:
@@ -87,3 +87,35 @@ def add_festival(request):
     }
 
     return render(request, template, context)
+
+
+def edit_festival(request, festival_id):
+    """ Edit a festival in the store """
+    festival = get_object_or_404(Festival, pk=festival_id)
+    if request.method == 'POST':
+        form = FestivalForm(request.POST, request.FILES, instance=festival)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Successfully updated festival!')
+            return redirect(reverse('festival_detail', args=[festival.id]))
+        else:
+            messages.error(request, 'Failed to update festival. Please ensure the form is valid.')
+    else:
+        form = FestivalForm(instance=festival)
+        messages.info(request, f'You are editing {festival.name}')
+
+    template = 'festivals/edit_festival.html'
+    context = {
+        'form': form,
+        'festival': festival,
+    }
+
+    return render(request, template, context)
+
+
+def delete_festival(request, festival_id):
+    """ Delete a festival from the store """
+    festival = get_object_or_404(Festival, pk=festival_id)
+    festival.delete()
+    messages.success(request, 'Festival deleted!')
+    return redirect(reverse('festivals'))
