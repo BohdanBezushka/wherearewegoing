@@ -2,7 +2,9 @@ from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.db.models.functions import Lower
 from django.contrib import messages
 from django.db.models import Q
+
 from .models import Festival
+from .forms import FestivalForm
 
 # Create your views here.
 
@@ -63,3 +65,13 @@ def festival_detail(request, festival_id):
     }
 
     return render(request, 'festivals/festival_detail.html', context)
+
+def add_festival(request):
+    """ Add a festival to the store """
+    form = FestivalForm()
+    template = 'festivals/add_festival.html'
+    context = {
+        'form': form,
+    }
+
+    return render(request, template, context)
