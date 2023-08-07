@@ -46,6 +46,50 @@ h4.logo-font.my-1{
 );
 }
 
+/*----------------------Body*/
+
+div.container{
+  margin-top: 11.75rem;
+}
+
+/*--------------------Footer*/
+.image-footer{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+#img-footer{
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Estilos para los enlaces de navegación */
+ul li a.link-footer {
+  text-decoration: none;
+  color: white;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  padding: 5px 10px;
+  transition: border-color 0.3s, color 0.3s;
+}
+
+ul li a.link-footer:hover {
+  border-color: #ff66b2;
+  color: #ff66b2;
+}
+
+
+
 /*Button to go to the top of the web page*/
 .btt-button {
   height: 42px;
@@ -77,17 +121,6 @@ h4.logo-font.my-1{
   border-color: 10px solid white;
 }
 
-html {
-  height: 100%;
-}
-
-body {
-  background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
-  background-size: cover;
-  height: calc(100vh - 164px);
-  color: #555;
-  font-family: 'Lato';
-}
 
 /* from Bulma */
 .icon {
@@ -158,7 +191,7 @@ width: 100%;
 top: 0;
 left: 0;
 position: fixed;
-background: white;
+background: black !important;
 z-index: -1;
 }
 
@@ -251,15 +284,6 @@ input[name='q']::placeholder {
   height: 100px;
   overflow-x: hidden;
   overflow-y: auto;
-}
-
-/* -------------------------------- Media Queries */
-
-/* Slightly larger container on xl screens */
-@media (min-width: 1200px) {
-.container {
-  max-width: 80%;
-}
 }
 
 /* Allauth form formatting */
@@ -435,41 +459,5 @@ color: #17a2b8; /* text-info */
 }
 
 
-
-
-
-
 /* -------------------------------- Media Queries */
 
-/* Slightly larger container on xl screens */
-@media (min-width: 1200px) {
-.container {
-  max-width: 80%;
-}
-}
-
-/* pad the top a bit when navbar is collapsed on mobile */
-@media (max-width: 991px) {
-  .header-container {
-      padding-top: 116px;
-  }
-
-  body {
-      height: calc(100vh - 116px);
-  }
-}
-
-/* fixed top navbar only on medium and up */
-@media (min-width: 992px) {
-  .fixed-top-desktop-only {
-      position: fixed;
-      top: 0;
-      right: 0;
-      left: 0;
-      z-index: 1030;
-  }
-
-  .header-container {
-      padding-top: 164px;
-  }
-}
