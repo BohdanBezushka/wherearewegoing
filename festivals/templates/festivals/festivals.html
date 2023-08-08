@@ -68,7 +68,7 @@
                                         <p class="lead mb-0 text-left font-weight-bold card-festival">{{ festival.location}}</p>
                                         <p class="lead mb-0 text-left font-weight-bold card-festival">${{ festival.price }}</p>
                                         {% if request.user.is_superuser %}
-                                            <small class="ml-3">
+                                            <small class="bg-white">
                                                 <a href="{% url 'edit_festival' festival.id %}">Edit</a> | 
                                                 <a class="text-danger" href="{% url 'delete_festival' festival.id %}">Delete</a>
                                             </small>
