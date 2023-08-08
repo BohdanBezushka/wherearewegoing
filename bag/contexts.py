@@ -8,13 +8,13 @@ def bag_contents(request):
 
     bag_items = []
     total = 0
-    product_count = 0
+    festival_count = 0
     bag = request.session.get('bag', {})
 
     for item_id, quantity in bag.items():
         festival = get_object_or_404(Festival, pk=item_id)
         total += quantity * festival.price
-        product_count += quantity
+        festival_count += quantity
         bag_items.append({
             'item_id': item_id,
             'quantity': quantity,
@@ -33,7 +33,7 @@ def bag_contents(request):
     context = {
         'bag_items': bag_items,
         'total': total,
-        'product_count': product_count,
+        'festival_count': festival_count,
         'delivery': delivery,
         'free_delivery_delta': free_delivery_delta,
         'free_delivery_threshold': settings.FREE_DELIVERY_THRESHOLD,
