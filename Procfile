@@ -1,1 +1,1 @@
-web: gunicorn where-are-we-going.wsgi:application
+web: gunicorn wherearewegoing.wsgi:application
