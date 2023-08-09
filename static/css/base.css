@@ -124,6 +124,18 @@ and
   color: #ff0000;
 }
 
+/*About us*/
+.about-title{
+  color: #ff0000;
+  font-weight: 800;
+}
+
+
+.text-size{
+  font-size: 120%;
+  font-weight: 500;
+}
+
 /*--------------------Footer*/
 .image-footer{
   display: flex;
