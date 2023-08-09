@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY','')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = ['8000-bohdanbezus-whereareweg-ewu4u8zvg36.ws-eu102.gitpod.io','where-are-we-going.herokuapp.com', 'localhost', 'where-are-we-going-d3621addaf03.herokuapp.com']
 
@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'checkout',
     'crispy_forms',
     'profiles',
+    'storages',
 ]
 
 MIDDLEWARE = [
@@ -179,6 +180,27 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+# AWS Configuration
+if 'USE_AWS' in os.environ:
+    # Bucket Config
+    AWS_STORAGE_BUCKET_NAME = 'where-are-we-going'
+    AWS_S3_REGION_NAME = 'us-east-1'
+    AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
+    AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
+    AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
+
+    # Static and media files
+    STATICFILES_STORAGE = 'custom_storages.StaticStorage'
+    STATICFILES_LOCATION = 'static'
+    DEFAULT_FILE_STORAGE = 'custom_storages.MediaStorage'
+    MEDIAFILES_LOCATION = 'media'
+
+    # Override static and media URLs in production
+    STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
+    MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
+
 
 # Stripe details.
 
