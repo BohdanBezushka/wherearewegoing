@@ -24,20 +24,20 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 
 # ---------------------------------------
-#SECRET_KEY = os.environ.get('SECRET_KEY','')
+SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-#DEBUG = 'DEVELOPMENT' in os.environ
+DEBUG = 'DEVELOPMENT' in os.environ
 
-#ALLOWED_HOSTS = ['8000-bohdanbezus-whereareweg-ewu4u8zvg36.ws-eu102.gitpod.io','where-are-we-going.herokuapp.com', 'localhost', 'where-are-we-going-d3621addaf03.herokuapp.com']
+ALLOWED_HOSTS = ['8000-bohdanbezus-whereareweg-ewu4u8zvg36.ws-eu102.gitpod.io','where-are-we-going.herokuapp.com', 'localhost', 'where-are-we-going-d3621addaf03.herokuapp.com']
 
 
 # ZONA DE TRABAJO:
-SECRET_KEY = 'django-insecure-t9#z61#k=5$k&ku9vz!9aem)y*xjqh7l7ps+3qa^it8oklh(-b'
+#SECRET_KEY = 'django-insecure-t9#z61#k=5$k&ku9vz!9aem)y*xjqh7l7ps+3qa^it8oklh(-b'
 
-DEBUG = True
+#DEBUG = True
 
-ALLOWED_HOSTS = ['8000-bohdanbezus-whereareweg-ewu4u8zvg36.ws-eu102.gitpod.io']
+#ALLOWED_HOSTS = ['8000-bohdanbezus-whereareweg-ewu4u8zvg36.ws-eu102.gitpod.io']
 
 
 
@@ -125,7 +125,6 @@ AUTHENTICATION_BACKENDS = [
     'allauth.account.auth_backends.AuthenticationBackend',
 ]
 
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 # Requirements to create an account
 ACCOUNT_AUTHENTICATION_METHOD = 'username_email'
@@ -240,3 +239,16 @@ STRIPE_CURRENCY = 'usd'
 STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
 STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
 STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
+
+# Email configuration:
+if 'DEVELOPMENT' in os.environ:
+    EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+    DEFAULT_FROM_EMAIL = 'wherearewegoing.example.com'
+else:
+    EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+    EMAIL_USE_TLS = True
+    EMAIL_PORT = 587
+    EMAIL_HOST = 'wherearewegoing.festivals@gmail.com'
+    EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
+    EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASS')
+    DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_HOST_USER')
