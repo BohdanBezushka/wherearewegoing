@@ -7,6 +7,9 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="author" content="Bohdan Bezushka Perepelytsia"/>
+        <meta name="description" content="Where Are We Going? is a site to buy tickets for the best festivals in the world."/>
+        <meta name="keywords" content="Where are we goin?, Festival Tickets, Music Festivals, Online Ticket Purchase, Live Events, Live Performers, Festival Experiences, Discounted Tickets" />
         {% endblock %}
         {% block extra_meta %}
         {% endblock %}
@@ -35,7 +38,7 @@
         <!--Favicon-->
 		<link rel="shortcut icon" type="image/x-icon" href="{{ MEDIA_URL }}favicon.ico" />
 
-        <title>Where Are We going? {% block extra_title %}{% endblock %}</title>
+        <title>Where Are We going? | The Best Festivals at Your Fingertips {% block extra_title %}{% endblock %}</title>
     </head>
     <body>
         <!--Navigation bar-->
@@ -147,7 +150,7 @@
 				<div class="row justify-content-center text-center">
 					<div class="col-md-4 image-footer">
                         <a href="{% url 'home' %}" class="nav-link main-logo-link">
-                            <img id="img-footer" class="img-nav" src="{{ MEDIA_URL }}img-footer.png" alt="Brand:Where Are We Going?"/>
+                            <img id="img-footer" class="img-nav" src="{{ MEDIA_URL }}img-footer.png" alt="Brand:Where Are We Going?: the best music festivals."/>
                         </a>
 					</div>
 					<div class="col-md-4">
@@ -171,13 +174,16 @@
 						<h5 class="font-weight-bold">Social Media</h5>
                         <ul>
                             <li>
-                                <a class="link-footer" href="https://www.facebook.com" target="_blank" rel="noopener">Facebook</a>
+                                <a class="link-footer" href="https://www.facebook.com" target="_blank" rel="noopener"
+                                aria-label="Visit our Facebook page (opens in a new tab)">Facebook</a>
                             </li>
                             <li>
-                                <a class="link-footer" href="https://www.twitter.com" target="_blank" rel="noopener">Twitter</a>
+                                <a class="link-footer" href="https://www.twitter.com" target="_blank" rel="noopener"
+                                aria-label="Visit our Twitter page (opens in a new tab)">Twitter</a>
                             </li>
                             <li>
-                                <a class="link-footer" href="https://www.instagram.com" target="_blank" rel="noopener">Instagram</a>
+                                <a class="link-footer" href="https://www.instagram.com" target="_blank" rel="noopener"
+                                aria-label="Visit our Instagram page (opens in a new tab)">Instagram</a>
                             </li>
                         </ul>
 					</div>
