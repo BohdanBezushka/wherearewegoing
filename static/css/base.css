@@ -541,7 +541,7 @@ color: #17a2b8; /* text-info */
 
 /* -------------------------------- Media Queries */
 
-/* For small screens sizes from 400 px wide and down */
+/* For small screens sizes from 400px wide and down */
 @media (max-width: 400px){
   header.container-fluid.fixed-top, button.navbar-toggler{
     font-size: 0.6rem;

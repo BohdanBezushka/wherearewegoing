@@ -1,6 +1,7 @@
 from django.contrib import admin
 from .models import UserData, Ticketing
 
+
 # Register your models here.
 class TicketingAdminInline(admin.TabularInline):
     model = Ticketing
@@ -24,5 +25,6 @@ class UserDataAdmin(admin.ModelAdmin):
                     'grand_total',)
 
     ordering = ('-date',)
+
 
 admin.site.register(UserData, UserDataAdmin)

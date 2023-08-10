@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect, reverse, get_object_or_404, HttpResponse
+from django.shortcuts import render, redirect, reverse, get_object_or_404, HttpResponse  # noqa
 from django.views.decorators.http import require_POST
 from django.contrib import messages
 from django.conf import settings
@@ -14,8 +14,8 @@ from bag.contexts import bag_contents
 import stripe
 import json
 
-# This is the web page when the user wants to buy ticktes.
 
+# This is the web page when the user wants to buy ticktes.
 @require_POST
 def cache_checkout_data(request):
     try:
@@ -31,6 +31,7 @@ def cache_checkout_data(request):
         messages.error(request, 'Sorry, your payment cannot be \
             processed right now. Please try again later.')
         return HttpResponse(content=e, status=400)
+
 
 def checkout(request):
     stripe_public_key = settings.STRIPE_PUBLIC_KEY
@@ -69,20 +70,20 @@ def checkout(request):
                         ticketing.save()
                 except Festival.DoesNotExist:
                     messages.error(request, (
-                        "One of the festivals in your bag wasn't found in our database. "
+                        "One of the festivals in your bag wasn't found in our database. "   # noqa
                         "Please call us for assistance!")
                     )
                     order.delete()
                     return redirect(reverse('view_bag'))
             request.session['save_info'] = 'save-info' in request.POST
-            return redirect(reverse('checkout_success', args=[order.order_number]))
+            return redirect(reverse('checkout_success', args=[order.order_number]))  # noqa
         else:
             print(userdata_form.errors)
             messages.error(request, 'There was an error with your form. \
                 Please double check your information.')
     else:
         if not bag:
-            messages.error(request, "There's nothing in your bag at the moment.")
+            messages.error(request, "There's nothing in your bag at the moment.")  # noqa
             return redirect(reverse('festivals'))
 
         # Prefill the form with any info the user maintains in their profile.

@@ -7,9 +7,8 @@ from django.db.models import Q
 from .models import Festival
 from .forms import FestivalForm
 
+
 # Create your views here.
-
-
 def all_festivals(request):
     """ A view to show all festivals and search queries """
 
@@ -21,7 +20,6 @@ def all_festivals(request):
     """User can search in search bar"""
     if request.GET:
         """The user can search by price, location and date."""
-
 
         if 'sort' in request.GET:
             sortkey = request.GET['sort']
@@ -39,10 +37,9 @@ def all_festivals(request):
         if 'q' in request.GET:
             query = request.GET['q']
             if not query:
-                messages.error(request, "You didn't enter any search criteria!")
+                messages.error(request, "You didn't enter any search criteria!")  # noqa
                 return redirect(reverse('festivals'))
-            
-            queries = Q(name__icontains=query) | Q(description__icontains=query)
+            queries = Q(name__icontains=query) | Q(description__icontains=query)  # noqa
             festivals = festivals.filter(queries)
 
     current_sorting = f'{sort}_{direction}'
@@ -82,7 +79,7 @@ def add_festival(request):
             messages.success(request, 'Successfully added festival!')
             return redirect(reverse('festival_detail', args=[festival.id]))
         else:
-            messages.error(request, 'Failed to add festival. Please ensure the form is valid.')
+            messages.error(request, 'Failed to add festival. Please ensure the form is valid.')  # noqa
     else:
         form = FestivalForm()
 
@@ -110,7 +107,7 @@ def edit_festival(request, festival_id):
             messages.success(request, 'Successfully updated festival!')
             return redirect(reverse('festival_detail', args=[festival.id]))
         else:
-            messages.error(request, 'Failed to update festival. Please ensure the form is valid.')
+            messages.error(request, 'Failed to update festival. Please ensure the form is valid.')  # noqa
     else:
         form = FestivalForm(instance=festival)
         messages.info(request, f'You are editing {festival.name}')
