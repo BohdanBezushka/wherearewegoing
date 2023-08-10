@@ -12,10 +12,6 @@
 }
 
 /* Header */
-input.form-control {
-  margin-right: 15px;
-  margin-left: 15px;
-}
 
 .icon {
   align-items: center;
@@ -45,6 +41,10 @@ h4.logo-font.my-1{
   hsl(45deg 100% 50%) 90%,
   hsl(55deg 100% 50%) 100%
 );
+}
+
+.dropdown-menu.border-0.w-100.p-3.rounded-0.my-0.show{
+  background-color: black;
 }
 
 /*----------------------Body*/
@@ -199,10 +199,8 @@ ul li a.link-footer:hover {
 }
 
 #card-border{
-  border-radius: 20px;
   border-color: 10px solid white;
 }
-
 
 /* from Bulma */
 .icon {
@@ -542,4 +540,30 @@ color: #17a2b8; /* text-info */
 
 
 /* -------------------------------- Media Queries */
+
+/* For small screens sizes from 400 px wide and down */
+@media (max-width: 400px){
+  header.container-fluid.fixed-top, button.navbar-toggler{
+    font-size: 0.6rem;
+  }
+  
+  div.container {
+    margin-top: 2.75rem;
+  }
+
+  .contact-size{
+    font-size: 0.8rem;
+  }
+
+  h4.logo-font.my-1{
+    font-size: 0.8rem;
+  }
+
+  .button-increment-decrement {
+    font-size: 0.7rem;
+  }
+}
+
+
+
 
