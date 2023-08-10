@@ -12,3 +12,8 @@ def about_us(request):
     """ A view on the company """
 
     return render(request, 'home/about_us.html')
+
+def contact(request):
+    """ Contact for issues with tickets"""
+
+    return render(request, 'home/contact.html')
