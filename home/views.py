@@ -18,3 +18,8 @@ def contact(request):
     """ Contact for issues with tickets"""
 
     return render(request, 'home/contact.html')
+
+def newsletter(request):
+    """ Newsletter for users who want to be informed about new festivals, news..."""
+
+    return render(request, 'home/newsletter.html')
