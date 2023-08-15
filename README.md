@@ -19,13 +19,22 @@ _____
     - [Website Main Goals](#website-main-goals)
   - [User Experience](#user-experience)
     - [User Stories](#user-stories)
-    - [Project and Database Structure](#project-and-database-structure)
-      - [Data Models](#data-models)
-    - [Wireframes and Design Choices](#wireframes-and-design-choices)
+    - [Data Models](#data-models)
+    - [Design](#design)
   - [Agile Methodology](#agile-methodology)
   - [Features](#features)
-    - [Existing Features](#existing-features)
-    - [Future Features](#future-features)
+    - [Favicon](#favicon)
+    - [Festivals](#festivals)
+    - [Festival details](#festival-details)
+    - [Shopping bag](#shopping-bag)
+    - [Checkout](#checkout)
+    - [Contact](#contact)
+    - [More](#more)
+    - [Sign in and sign up](#sign-in-and-sign up)
+    - [Regular user](#regular-user)
+    - [Admin](#admin)
+    - [Django Administration](#django-administration)
+  - [Future Features](#future-features)
   - [Technologies Used](#technologies-used)
     - [Languages](#languages)
     - [Frameworks \& Dependencies](#frameworks--dependencies)
@@ -34,8 +43,8 @@ _____
   - [Validation and Testing](#validation-and-testing)
   - [Bugs](#bugs)
   - [Credits](#credits)
-    - [Code](#code)
-    - [Media](#media)
+    - [Information Resources](#information-resources)
+    - [Content](#content)
     - [Acknowledgements](#acknowledgements)
 [Back to Top](#table-of-contents)
 _____
@@ -215,6 +224,7 @@ Models define the source of the data stored.  Each model contains the essential 
 * The colour `FF66B2` is mainly used on the footer buttons to differentiate them from the others.
 
 **Typography**
+
 The typography used throughout the project is ['Geologica'](https://fonts.google.com/specimen/Geologica?query=GEOLOGICA) because it is a versatile typeface that works well for both display and body text. Different weights and styles of 'Geologica' are used in the project to distinguish more important parts from others or to highlight specific text.
 
 ![Google Fonts](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/479a3dc1-3ee2-4e73-adff-c5e01c2ef6d7)
