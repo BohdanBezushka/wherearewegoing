@@ -206,7 +206,7 @@ Models define the source of the data stored.  Each model contains the essential 
 ### Design
 
 **Colour Scheme**
-Coolors]( https://coolors.co/) was used to generate a colour palette for the website:
+![Coolors]( https://coolors.co/) was used to generate a colour palette for the website:
 
 ![colour-scheme](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/96547f1c-e4a5-4194-8297-a2ac8b8b5870)
 
@@ -254,3 +254,415 @@ Wireframes are made in Canva. Below you can see the design of the different part
     Shopping bag
 ![shopping bag](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/b5e6390e-50d4-4e84-9819-649f19598707)
 </details>
+
+<details>
+<summary>Checkout details</summary>
+  
+    Checkout details
+![Checkout details](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/689d1796-059c-49bf-911b-f13fdd775744)
+</details>
+
+<details>
+<summary>Festivals</summary>
+  
+    Festivals
+![Festivals](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/afce84d0-3184-4126-ad10-023326d8427c)
+</details>
+
+<details>
+<summary>About</summary>
+  
+    Part 1
+![Part 1](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/55c3ef4d-f2a5-4f46-b016-d79decad0c0b)
+
+    Part 2
+![Part 2](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/900e51a2-c163-4159-b9ec-7904db36a3fe)
+
+    Part 3
+![Part 3](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/1ef19679-18d8-4d4c-9725-7aaaaeca15fc)
+</details>
+
+<details>
+<summary>Sign in</summary>
+  
+    Sign in
+![Sign in](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/b686cff3-fc7e-4fc0-a96e-40c8fb832dd4)
+</details>
+
+<details>
+<summary>Sign up</summary>
+  
+    Sign up
+![Sign up](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/0309d144-a17b-414f-b0a9-300b8c96cdf2)
+</details>
+
+<details>
+<summary>Footer</summary>
+  
+    Footer
+![Footer](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/c7ce55ba-fa9b-493e-854d-d4b20662298c)
+</details>
+
+
+
+[Back to Top](#table-of-contents)
+_____
+
+## Agile Methodology
+The plan for this project was carried out using the Agile Methodology. GitHub issues, which can be found [here](https://github.com/BohdanBezushka/wherearewegoing/issues), were used to record user stories, bugs and developer tasks. These were categorised into 4 Epics/Milestones and organised into 1 Project/Sprint. Each User Story includes Acceptance Criteria and Tasks that are necessary for a clear and effective approach to the project, ensuring that the minimum project requirements are met. The MoSCoW Method of Prioritisation was also used, classifying each User Story as a "Must Have", "Should Have", "Could Have" and "Won't have". Also, the labels "Fix bug" and "Project Task" were added for better organisation.
+
+"USER HISTORY: Different ways to create an account" and "USER STORY: Tickets by email" I have not been able to implement them due to lack of time.
+
+<details>
+<summary>Screenshots of the Issues section of Github</summary>
+
+        Open Issues
+![Open Issues](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/c325f4f2-d68a-4238-a5ec-ca9a3ccd81a9)
+
+        Closed Issues
+![Closed Issues](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/8eaea7eb-e886-48a6-8ec9-01d7db4de985)
+
+        Labels
+![Labels](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/d98ad5f7-3e27-487b-9780-686d06a4b31b)
+
+        Open Epics
+![Open Epics](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/ca5833f6-50c4-41b1-8b51-b81438a2a5d1)
+
+        Closed Epics
+![Closed Epics](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/e4889cca-534c-41fe-9e4a-574fec84a31c)
+
+        Add Issue
+![Add Issue](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/786ce2e0-c236-4d1b-8008-245bd2f9cf86)
+
+        Sprint
+![Sprint](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/ef3d7806-00a5-4532-8697-74a5e67cebec)
+</details>
+
+In order to develop an MVP (Minimum Viable Product), I employed the issues section of GitHub along with Trello, allowing me to meticulously plan and create a streamlined timeline for the project's progression.
+
+[Back to Top](#table-of-contents)
+_____
+
+## Features
+  
+### Favicon 
+Our favicon works to visually identify the webpage and help the user recognize it more easily when they have multiple tabs open in the browser. Additionally, it improves the image and branding of a webpage.
+
+<details>
+<summary>Where Are We Going? Favicon</summary>
+
+        Favicon
+![Favicon](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/636f2e67-6113-4508-bdf3-b7a6a6f0a487)
+</details>
+
+### Introduction page
+All parts of the project have a header and footer so that the user can easily move between different sections.
+
+<details>
+<summary>Home</summary>
+
+![Home](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/173c4194-c52c-42cc-a1e6-08bf9f43b04e)
+</details>
+
+### Festivals
+In this section, the user can see a list of all festivals.
+
+<details>
+<summary>Festivals</summary>
+
+![Festivals](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/04885491-93b2-4a6d-8f6e-44c5adb2d7da)
+</details>
+
+### Festival details
+In this section, the user has a description of the festival and can add tickets to the shopping bag.
+
+<details>
+<summary>Festival details</summary>
+  
+    Festival details
+![Festival details](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/a78c1de7-99b5-4a9c-9775-9d92b123f128)
+
+    Add a festival to the shopping cart
+![Add a festival to the shopping cart](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/320c75c4-4995-49f5-9a9c-aabd07b78485)
+
+    Add more tickets for same festival
+![Add more tickets of same festival](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/735d8b02-525d-4810-b7f7-9e37b215312e)
+</details>
+
+### Shopping bag
+In this section, the user can see his shopping cart, modify the festival tickets, delete the festival and see the total price. They can also continue shopping or make a payment.
+
+<details>
+<summary>Shopping bag</summary>
+  
+    Shopping bag
+![Shopping bag](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/cecfce11-490c-4698-b42d-5ffddef84e16)
+
+    Update festival
+![Update festival](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/3cfffcb8-52dc-4cf3-9431-9e387a442499)
+
+    Delete festival
+![Delete festival](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/970a8664-18d1-4a03-b5f0-2ba9f46b6848)
+</details>
+
+### Checkout
+In this section, the user can fill in the form and add their card to complete the purchase. When the payment is completed the user can see a summary of the purchase.
+
+<details>
+<summary>Checkout</summary>
+  
+    Checkout
+![Checkout](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/51bc6bfb-fdcc-4748-8642-0c9d9af750b2)
+
+    Order information
+![Order information](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/5efb9e84-2891-4b14-8fdf-f9169f08702f)
+</details>
+
+### Contact
+In this section, the user has at his disposal an e-mail address and a telephone number to ask for help, suggestions and opinions.
+
+<details>
+<summary>Contact</summary>
+  
+    Contact
+![Contact](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/9b0db390-b7ce-4cfc-8ffa-952adc82b12f)
+</details>
+
+### More
+In this section, the user can click on the "about us" button and get to know us. He can also go to the newsletter section to sign up. 
+
+<details>
+<summary>More</summary>
+  
+    About us
+![About us](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/726eeb62-8ef6-40b9-af0a-a18c48acbf35)
+
+    Newsletter
+![Newsletter](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/b5d12f32-95e0-484f-8adf-2e5ec7a0ec1e)
+</details>
+
+### Sign in and sign up
+In this section, the user can log in with his e-mail address and password. It also has a link to the user registration section and another link in case the user has forgotten the password.
+
+<details>
+<summary>Login, log out and registration</summary>
+  
+    Sign in
+![Sign in](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/0cb9b7ee-accb-4a33-b462-0446c31cd401)
+
+    Sign up
+![Sign up](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/1da50ca5-e7ee-4c9a-a2d4-a48eededacde)
+
+    Forgot Password?
+![Forgot Password](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/4cf56c23-2cb8-487b-b70d-c110ff917ab5)
+
+    Verify your e-mail address
+![Verify your e-mail address](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/5f901e55-8e1f-492b-998a-72282dc2f359)
+
+    E-mail
+![E-mail](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/557d3280-2f9e-49f2-99cb-9f6f718dde8c)
+
+    E-mail confirmation
+![E-mail confirmation](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/ae0883db-faba-4631-a031-062abc7b4228)
+
+    Confirmed
+![Confirmed](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/aa2458c3-74bb-461e-9700-14f06f33adf1)
+
+    Signed
+![Signed](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/eac8ea6c-6602-4adc-b24f-0a1dc11f3579)
+
+    Log out part 1
+![Log out part 1](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/5bf3d894-303c-4be2-99ee-e2a281587a01)
+
+    Log out part 2
+![Log out part 2](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/86dc2518-098f-4810-a7e4-075521b116ab)
+</details>
+
+### Regular user
+In this section, the user can fill in the default information when making a purchase and can also view the purchase history.
+
+<details>
+<summary>My profile</summary>
+  
+    My profile
+![My profile](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/d5a33763-e205-4499-a447-0f9f67038d23)
+</details>
+
+### Admin
+In this part, we show how the administrator can add new festivals, update festivals and delete festivals.
+
+<details>
+<summary>Admin sections</summary>
+  
+    Festival management
+![Festival management](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/fcf897eb-9303-4fc2-b63c-12181d2fc70b)
+
+    Added festival
+![Added festival](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/a49dbee2-610e-4a9c-95a1-bc045d6c7593)
+
+    Edit part 1
+![Edit part 1](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/99dabcab-a046-4e1a-bc96-419ef6fb0821)
+
+    Edit part 2
+![Edit part 2](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/2244dd23-5cab-4650-8aa1-dec917246e87)
+
+    Edit part 3
+![Edit part 3](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/8b61c6cf-4c6c-43cd-b0d0-223ca011d393)
+
+    Deleted
+![Deleted](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/6e2624e3-a257-4f06-88d5-7be36a5459e9)
+</details>
+
+### Django Administration
+In this section, the administrator can view, update, delete and add users, festivals and orders.
+
+<details>
+<summary>Sections</summary>
+  
+    Users
+![Users](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/0b591abc-d17a-43c9-8840-a1eaed74da6a)
+
+    Orders
+![Orders](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/e6b1bc7c-5444-4caf-8b71-46ba755653e8)
+
+    Festivals
+![Festivals](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/3423e547-07bf-442c-99b8-63fd9d0e113b)
+</details>
+
+[Back To Top](#table-of-contents)
+___
+
+## Future Features
+When I have time, I would like to continue working on the following features:
+
+* Implement a ticket delivery (with a unique code to avoid scams) to the user's email address and phone number when the user completes the purchase.
+* Implement a blog in order to attract more users to the website.
+* I would like to add the option for users to register using Google or Facebook because it makes accessing the application faster. The registration process will be implemented using Django Allauth to integrate with the authentication APIs of these platforms.
+
+[Back To Top](#table-of-contents)
+___
+
+## Technologies Used
+This project was developed using the following languages, frameworks, libraries and dependencies:
+
+### Languages
+- [HTML5](https://www.w3schools.com/html/)
+- [CSS3](https://www.w3schools.com/css/css_intro.asp)
+- [Python 3.8.12](https://www.python.org/downloads/release/python-3812/)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+### Frameworks & Dependencies
+- [Django 3.2.18](https://www.djangoproject.com/) - Free and open source Python Web Framework
+- [Gunicorn 20.1.0](https://gunicorn.org/) - A Python WSGI HTTP server compatible with Django and used to run the project on Heroku
+- [PostgreSQL 0.5.0](https://www.postgresql.org/) - A powerful, open-source object-relational database system
+- [Pyscopg2 2.9.5](https://www.psycopg.org/docs/) - A PostgreSQL database adapter for Python
+- [Stripe](https://stripe.com/) - Provides a secure and convenient way to handle online payments
+- [Amazon Web Services S3 Bucket](https://aws.amazon.com/s3/) - A cloud storage service which provides object storage, built for storing and recovering any amount of information or data from anywhere over the internet through a web services interface
+- [Heroku](https://www.heroku.com) - A cloud platform as a service
+- [ElephantSQL](https://www.elephantsql.com/) - PostgreSQL database hosting service
+- [SQLite3](https://docs.python.org/3/library/sqlite3.html) - The database provided by Django
+- [Django Allauth](https://django-allauth.readthedocs.io/en/latest/) - Integrated set of Django applications addressing authentication and registration
+- [Bootstrap 4.6.2](https://getbootstrap.com/docs/4.6/getting-started/introduction/) - A Framework for building responsive, mobile-first sites
+- [Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/) - Provides a |crispy filter and {% crispy %} tag that helps control the rendering behaviour of Django forms in a very elegant and DRY way
+- [Pillow](https://pypi.org/project/Pillow/) - A Python Imaging Library adds image processing capabilities to your Python interpreter
+- [Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/s3.html) - Allows connection to S3 bucket
+
+### Tools
+- [Cloud Anywhere](https://codeanywhere.com/solutions/collaborate) - Online Cloud Editor Used
+- [GitHub](https://github.com/) - Cloud-based git repository used
+- [W3C Validator](https://validator.w3.org/) - A validator which checks the markup validity of Web documents in HTML, XHTML, SMIL, MathML, etc.
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) - A validator which checks the validity of CSS code
+- [Code Institute's Python Linter](https://pep8ci.herokuapp.com/) - Highlights syntactical and stylistic problems in Python source code
+- [JShint](https://jshint.com/) - A JavaScript code quality tool
+- [Chrome DevTools and Lighthouse](https://developer.chrome.com/docs/devtools/) - Web Developer Tools
+- [Box Shadow Generator](https://cssgenerator.org/box-shadow-css-generator.html) - A box shadow generating tool
+- [Am I responsive](https://ui.dev/amiresponsive) - For responsive visuals of the website
+- [CanIUse](https://caniuse.com/) - Browser support tables for modern web technologies
+- [Compress or Die](https://compress-or-die.com) - Webp compression
+- [TinyPNG](https://tinypng.com/) - Compresses images to reduce the file size
+- [TinyURL](https://tinyurl.com/app/) - Shortens links
+- [Coolors](https://coolors.co/) - Colour Palette Generator
+- [Google Fonts](https://fonts.google.com/) - Fonts
+- [Font Awesome](https://fontawesome.com/) - Icons
+- [Balsamiq](https://balsamiq.com/wireframes/) - Low Fidelity Wireframes
+- [Google Drawings](https://docs.google.com/drawings) - Data Schema Tables
+- [XML Sitemaps](https://www.xml-sitemaps.com/) - Sitemap Generator
+- [Word Tracker](https://www.wordtracker.com/) - Keyword Research
+- [Privacy Policy](https://www.privacypolicygenerator.info/) - Privacy Policy Generator
+- [BrowserStack](https://www.browserstack.com/) - App and Browser Testing
+
+[Back to Top](#table-of-contents)
+_____
+
+## Deployment
+All deployment information can be found in [DEPLOYMENT.md](DEPLOYMENT.md)
+
+[Back to Top](#table-of-contents)
+_____
+
+## Validation and Testing
+All validation & testing information can be found in [TESTING.md](TESTING.md).
+
+[Back to Top](#table-of-contents)
+_____
+
+## Bugs
+**🐛**
+<details>
+<summary>Festivals weren't loaded:</summary>
+  
+Problem: When I passed all the data to ElephantSQL and had to load all the festivals I got the following error:
+![problem1](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/c06f30f2-b53d-4d1a-8042-18a25270e6db)
+
+Solution: Create a JSON file for uploading festivals.
+![solution](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/98d3c399-74c0-4a80-a687-6eb7e10fd9b6)
+</details>
+
+**🐛🐛**
+<details>
+<summary>Heroku login in Terminal:</summary>
+
+Problem: When I logged into Heroku through the terminal I got the following error:
+![problem2](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/46e4a988-405e-4cae-9c5b-239621935959)
+
+Solution: The error is due to the fact that in my Heroku account, I have Multi-Factor Authentication enabled. So I have to use the command "heroku login -i" put my email and when it asks for the password, enter the API Key.
+</details>
+
+**🐛🐛🐛**
+<details>
+<summary>It does not send email confirmation messages when a user registers:</summary>
+
+Problem: When a new user registers on the website, the page keeps refreshing constantly until it displays the following error:
+![problem3](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/3c24caa0-8b46-4d16-b092-8bb434b9b8b7)
+
+Solution: The solution is to add again a new application with a password through Google security settings and modify in Heroku settings in your project the EMAIL_HOST_PASS.
+</details>
+
+[Back to Top](#table-of-contents)
+_____
+
+## Credits
+
+### Information Resources
+The following walkthroughs helped me get my project in shape. I have adapted the code in these walkthroughs for the needs of my project:
+* Code Institute's "Project - Boutique Ado " which is found in the CI's LMS for the Diploma in Software Development.
+* [Python Django Web Framework - Full Course for Beginners](https://www.youtube.com/watch?v=F5mRW0jo-U4)
+* [Django Documentation](https://docs.djangoproject.com/en/3.2/)
+* [Bootstrap Documentation](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
+* [Django Allauth](https://django-allauth.readthedocs.io/en/latest/)
+* [Stripe Documentation](https://stripe.com/docs)
+
+### Content
+* [Gmail Help](https://support.google.com/mail?sjid=2849961795253290086-EU#topic=7065107)
+* [Django Sending Email To Gmail Account | Python Send Email](https://www.youtube.com/watch?v=UH8oHNDfTyQ)
+
+### Acknowledgements
+I would like to thank the following people who inspired, motivated, guided, helped and supported me along this Portfolio Project 5 journey:
+
+- All the people on Slack who have helped me and answered my questions, especially the group that started the course in August 2022.
+- The tutors who helped me quickly with the bugs I encountered were invaluable; without them, I think it would have taken me twice as long to complete the project.
+
+![Code Institute](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/966af479-d432-44ec-b25b-0acab0915f5c)
+
+[Back to Top](#table-of-contents)
+_____
