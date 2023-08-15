@@ -30,7 +30,7 @@ _____
     - [Checkout](#checkout)
     - [Contact](#contact)
     - [More](#more)
-    - [Sign in and sign up](#sign-in-and-sign up)
+    - [Sign in and sign up](#sign-in-and-sign-up)
     - [Regular user](#regular-user)
     - [Admin](#admin)
     - [Django Administration](#django-administration)
@@ -215,7 +215,7 @@ Models define the source of the data stored.  Each model contains the essential 
 ### Design
 
 **Colour Scheme**
-![Coolors]( https://coolors.co/) was used to generate a colour palette for the website:
+[Coolors]( https://coolors.co/) was used to generate a colour palette for the website:
 
 ![colour-scheme](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/96547f1c-e4a5-4194-8297-a2ac8b8b5870)
 
