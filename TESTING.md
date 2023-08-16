@@ -108,3 +108,66 @@ checkout.css
 _____
 
 ## Python
+Python code was tested using [Code Institute's Python Linter](https://pep8ci.herokuapp.com/). Long lines were deleted using `# noqa`. 
+
+<details>
+<summary>Manage.py</summary>
+<br>
+
+![Python Validation for manage.py](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/59c3fdf5-e72f-48c7-a616-8d5a3ae5ce86)
+</details>
+
+<details>
+<summary>Custom_storages.py</summary>
+<br>
+
+![Python Validation for custom_storages.py](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/1d8172ad-c13a-4467-bd67-7ab55dec8741)
+</details>
+
+<details>
+<summary>Wherearewegoing</summary>
+<br>
+asgi.py
+![Python Validation for asgi.py](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/6a24d364-94f2-4b62-8807-6e8b82fc622e)
+
+settings.py
+![Python Validation for settings.py](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/c56bebb2-c521-4659-a88a-e0e55e1ed79c)
+
+urls.py
+![Python Validation for urls.py](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/a46ac798-442c-4169-8150-e5d28427a776)
+
+views.py
+![Python Validation for views.py](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/913ce560-fc2f-418b-81e4-4bc69648814b)
+
+wsgi.py
+![Python Validation for wsgi.py](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/e9042763-2956-486d-94bd-55a2f2f2a011)
+</details>
+
+
+<details>
+<summary>Profiles</summary>
+<br>
+  
+admin.py
+![Python Validation for admin.py](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/4af9a642-8453-4386-85b9-7762466fc773)
+
+apps.py
+![Python Validation for apps.py](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/879deaf8-bd49-4312-be23-2bf00501c080)
+
+forms.py
+![Python Validation for forms.py](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/26ae1a0f-3415-4627-a307-dd5e047b5e73)
+
+models.py
+![Python Validation for models.py](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/d0dd09ec-7662-4e80-9faa-d5cd110a5c82)
+
+tests.py
+![Python Validation for tests.py](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/3df4acf9-20ab-47ac-8cd0-ec5b83a93d90)
+
+urls.py
+![Python Validation for urls.py](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/35f03ea6-9440-4576-859d-2169e25dda02)
+
+views.py
+![Python Validation for views.py](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/f683c843-092d-45c5-a3b9-39282de0f190)
+</details>
+
+
