@@ -26,7 +26,7 @@ HTML code was tested using the [W3C Validator](https://validator.w3.org/) via te
   
 ![HTML Validation for Home Page](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/fc9afcee-c9a2-467d-9f98-60ebece18e18)
 
-* The "<li></li>" error persists because it is indeed within a "<ul></ul>".
+* The <li> error persists but it is inside a <ul>.
 * The ID error isn't changed because I need the same code for the mobile version.
 
 These two errors will be present in all tests because they correspond to the header.
@@ -82,3 +82,29 @@ The "id="card-border" error is due to the fact that for each festival an equal i
   
 ![HTML Validation for Bag Page](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/50e7a794-6f95-47e5-8a5f-7b1eb39e9477)
 </details>
+
+[Back To Top](#table-of-contents)
+_____
+
+## CSS
+
+CSS code was tested using the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) via file input.
+
+<details>
+<summary>Screenshot with results for the styles.css files</summary>
+<br>
+
+base.css
+![CSS Validation for base.css file](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/153dcdb7-c05e-4fa2-962a-1c802bf06122)
+
+profile.css
+![CSS Validation for profile.css file](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/a0f4c3a5-da51-4d30-aeb4-179e34ae10ea)
+
+checkout.css
+![CSS Validation for checkout.css file](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/056d338d-d6e1-49ad-9a03-d647a9ea6e6a)
+</details>
+
+[Back To Top](#table-of-contents)
+_____
+
+## Python
