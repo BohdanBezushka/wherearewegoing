@@ -264,3 +264,34 @@ urls.py
 views.py
 ![Python Validation for views.py](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/f3397628-f5fc-40b2-b0f1-754caebf2fe5)
 </details>
+
+[Back To Top](#table-of-contents)
+_____
+
+## JavaScript
+[JShint](https://jshint.com/) was used to validate customised scripts.
+
+<details>
+<summary>Screenshots available here</summary>
+<br>
+
+**Script in festivals.html**
+![JavaScript Validation for script in festivals.html](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/7ef937d7-ad58-4088-8bd0-cab420360fdc)
+
+**Script in edit_festival.html**
+![JavaScript Validation for script in edit_festival.html](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/3a4de007-9b86-450a-84f4-bb01318ca0e9)
+
+**Modified quantity_input_script.html**
+![JavaScript Validation for script in quantity_input_script.html](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/69e0f5d6-43e9-4a96-b7c0-fdf302cb9675)
+
+**Script in bag.html**
+![JavaScript Validation for script in bag.html](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/7ab21a2e-3f8b-4b73-b7c0-752a8c659c69)
+
+**Slightly modified stripe_elements.js file**
+![JavaScript Validation for stripe_elements.js](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/b5cf05f8-59b9-44e2-8001-85e402a12e1f)
+</details>
+
+[Back To Top](#table-of-contents)
+_____
+
+# Lighthouse
