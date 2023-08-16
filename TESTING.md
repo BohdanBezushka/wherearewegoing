@@ -127,6 +127,7 @@ Python code was tested using [Code Institute's Python Linter](https://pep8ci.her
 <details>
 <summary>Wherearewegoing</summary>
 <br>
+
 asgi.py
 ![Python Validation for asgi.py](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/6a24d364-94f2-4b62-8807-6e8b82fc622e)
 
@@ -171,3 +172,95 @@ views.py
 </details>
 
 
+<details>
+<summary>Home</summary>
+<br>
+
+apps.py
+![Python Validation for apps.py](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/f1b093da-9b5d-4275-a40a-b9a8113cc003)
+
+urls.py
+![Python Validation for urls.py](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/4983c52f-d160-4577-95c7-4d7b2774aa2f)
+
+views.py
+![Python Validation for views.py](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/94a1b31e-1048-4f32-a416-6cab531caa06)
+</details>
+
+
+<details>
+<summary>Festivals</summary>
+<br>
+  
+admin.py
+![Python Validation for admin.py](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/8684c8bb-7169-487a-a087-64710067dcca)
+
+apps.py
+![Python Validation for apps.py](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/53f25d42-6fdd-453d-b324-de9c4ac33260)
+
+forms.py
+![Python Validation for forms.py](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/a96de8ba-84ce-4ec2-94d2-e55d9f8f12ec)
+
+models.py
+![Python Validation for models.py](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/103872ce-1a3c-4c2b-a106-9015832b9493)
+
+urls.py
+![Python Validation for urls.py](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/d19276b4-0964-4d9e-a4e5-e5423b575425)
+
+views.py
+![Python Validation for views.py](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/efe91458-ea42-431b-b351-eba27420188d)
+
+widgets.py
+![Python Validation for widgets.py](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/4e41e10d-5c98-4d05-b9ef-1fe7b0a62dbe)
+</details>
+
+
+<details>
+<summary>Checkout</summary>
+<br>
+  
+admin.py
+![Python Validation for admin.py](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/c7e5e5ff-ce3b-4af3-8584-f5202ad08e90)
+
+
+apps.py
+![Python Validation for apps.py](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/db0131d6-4077-46c0-b9c3-fe0814d7d49a)
+
+forms.py
+![Python Validation for forms.py](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/b178458e-bcd2-4aa3-8d08-ccab1618d205)
+
+models.py
+![Python Validation for models.py](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/64c59e9d-ae03-4eea-b4d1-5c955bf252b6)
+
+signals.py
+![Python Validation for signals.py](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/23a217be-8228-4a88-839f-26f1f376ec8f)
+
+urls.py
+![Python Validation for urls.py)](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/5ad37a0e-5e18-4a44-b38b-c1efac37262b)
+
+views.py
+![Python Validation for views.py](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/818f20d1-d0c8-4a2f-b1f5-744f6f310a6a)
+
+webhook_handler.py
+![Python Validation for webhook_handler.py](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/2dab7060-8657-40fb-a2d4-b25bf08608fc)
+
+webhookspy
+![Python Validation for webhooks.py](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/4fe3ec62-a728-4655-8f0e-dd5dd2e0f2e1)
+</details>
+
+
+<details>
+<summary>Bag</summary>
+<br>
+  
+apps.py
+![Python Validation for apps.py](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/aa5da66d-3067-40aa-86d9-50016f0be5c7)
+
+contexts.py
+![Python Validation for contexts.py](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/9115736d-89c0-4770-b67b-875968deccc2)
+
+urls.py
+![Python Validation for urls.py](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/84f8ed1b-1510-4407-aed1-1d4bfa569434)
+
+views.py
+![Python Validation for views.py](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/f3397628-f5fc-40b2-b0f1-754caebf2fe5)
+</details>
