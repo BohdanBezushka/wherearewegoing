@@ -12,7 +12,7 @@
 - [Responsiveness](#responsiveness)
 - [Browser Compatibility](#browser-compatibility)
 - [User Stories](#user-stories)
-- [Features](#features)
+- [Features Testing](#features-testing)
 _____
 
 # Code Validation
