@@ -294,7 +294,8 @@ _____
 [Back To Top](#table-of-contents)
 _____
 
-# c
+# Lighthouse
+
 [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) was used to audit the website for performance, accessibility, best practice and SEO.  This was run in Chrome DevTools in incognito mode.
 
 The following are the results for all pages:
@@ -336,5 +337,205 @@ The following are the results for all pages:
 
 Comments on the results:
 * The negative performance results are due to Stripe files and the use of AWS storage.
-*As for the negative data on accessibility, I would like to improve it when I have time, using the indications and suggestions of Lighthouse.
+* As for the negative data on accessibility, I would like to improve it when I have time, using the indications and suggestions of Lighthouse.
 
+[Back To Top](#table-of-contents)
+_____
+
+# Responsiveness
+
+The website was tested extensively on Chrome dev tools for responsiveness.  All pages are fully responsive on screens with widths between 320px and 2560px. Friends and family tested the website on their devices and all reported no issues with responsiveness.
+
+
+<details>
+
+<summary>Screenshots of the website at different screen sizes.</summary>
+
+**Home**
+
+        Mobile 320px
+ ![Mobile 320px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/9f0eb830-882b-4a46-928f-23d39527e9e1)
+
+        Tablet 768px
+![Tablet 768px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/2ee38b03-11c3-46e6-b5c9-eb01b3c230ef)
+
+        Desktop 1200px
+![Desktop 1200px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/f053ea50-ff10-4998-8fd7-0255542cbe51)
+
+**Festivals**
+
+        Mobile 320px
+![Mobile 320px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/21ef3dec-9c80-4b22-88d6-85f5010cb0e8)
+
+        Tablet 768px
+![Tablet 768px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/44d3d335-8fb7-46c6-88fd-31b465b8a41c)
+
+        Desktop 1200px
+![Desktop 1200px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/4512dc26-31fb-4e6c-a004-6fec1b440b71)
+
+
+**Festival detail**
+
+        Mobile 320px
+![Mobile 320px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/c54c5ca7-40a6-4a4e-896f-d9975939a6cb)
+
+        Tablet 768px
+![Tablet 768px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/3323e719-4d4e-4c16-b6da-70c544646a56)
+
+        Desktop 1200px
+![Desktop 1200px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/52e9caeb-c92a-48a1-abea-2492534a0af1)
+
+**Bag**
+
+        Mobile 320px
+![Mobile 320px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/5e9adb71-fe1d-440b-9b05-4c3ea022eaed)
+
+        Tablet 768px
+![Tablet 768px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/62d2c434-eaf8-4f47-8e81-1f8a523b8ca3)
+
+        Desktop 1200px
+![Desktop 1200px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/b3cbafbb-7988-4bc8-9110-fb6d623f75ee)
+
+
+**Checkout**
+
+        Mobile 320px
+![Mobile 320px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/ba116c8e-241b-409b-942b-77035ba05814)
+
+        Tablet 768px
+![Tablet 768px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/28b6ce46-1193-45fa-8400-955af16a7972)
+
+        Desktop 1200px
+![Desktop 1200px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/7317b585-8e97-4d47-9ed4-f0dacbf9e1c0)
+
+
+**Checkout success**
+
+        Mobile 320px
+![Mobile 320px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/46906b48-671c-4dde-8ad5-831e74a0f150)
+
+        Tablet 768px
+![Tablet 768px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/880b5633-50b3-4c46-a8c1-a5810d56b347)
+
+        Desktop 1200px
+![Desktop 1200px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/03290988-6e25-4784-a884-60bdd6239cd0)
+
+
+**Contact**
+
+        Mobile 320px
+![Mobile 320px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/77e49781-649c-48c1-b639-8eba3fe595b2)
+
+        Tablet 768px
+![Tablet 768px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/1fa47eff-1bb9-4f71-bea0-5b7535a9269f)
+
+        Desktop 1200px
+![Desktop 1200px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/dbbdbcb4-f2c7-4e32-bf37-f88d6992a1dd)
+
+
+**About us**
+
+        Mobile 320px
+![Mobile 320px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/f3d05d37-cf10-48ae-ab6a-96476ea6d815)
+
+        Tablet 768px
+![Tablet 768px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/32b15075-cbdb-42c5-b94a-5402456d5c75)
+
+        Desktop 1200px
+![Desktop 1200px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/9c4a37bc-5729-4ce8-b661-593c5f988ccc)
+
+
+**Newsletter**
+
+        Mobile 320px
+![Mobile 320px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/1fbc45c6-2f72-47a4-9f1e-6aea720f2433)
+
+        Tablet 768px
+![Tablet 768px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/657cd76b-1e21-409d-baa6-8eb3a29b3a07)
+
+        Desktop 1200px
+![Desktop 1200px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/b538e046-e51a-454d-83d9-965fd7ca704d)
+
+
+**Login**
+
+        Mobile 320px
+![Mobile 320px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/64967fbd-9e78-4fd8-86a9-10c5a2bec557)
+
+
+        Tablet 768px
+![Tablet 768px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/f53ed6d5-58ec-4661-9be6-bbfcdcd9b39f)
+
+        Desktop 1200px
+![Desktop 1200px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/c780c5ff-0c8f-4574-8c6b-9c71c77231b5)
+
+
+**Sign up**
+
+        Mobile 320px
+![Mobile 320px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/98edd135-0769-4f4f-8d45-fb52ab58853f)
+
+        Tablet 768px
+![Tablet 768px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/297af31b-eea3-4532-98b2-6cc089bcfd6d)
+
+        Desktop 1200px
+![Desktop 1200px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/8ad3fab0-dad7-4174-9b7a-252a04c42cbb)
+
+
+**Forgot password**
+
+        Mobile 320px
+![Mobile 320px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/521eb76e-a205-4186-a4e1-9c78d872519b)
+
+        Tablet 768px
+![Tablet 768px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/751aafce-ba21-4c7a-8b9d-6fec7726c4ba)
+
+        Desktop 1200px
+![Desktop 1200px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/dc55a045-bd13-4103-b36b-c1bade1a3d2f)
+
+**Sign out**
+
+        Mobile 320px
+![Mobile 320px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/34a82c06-4e35-4f02-8e4c-9d9246ab0fb4)
+
+        Tablet 768px
+![Tablet 768px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/6cacffad-be8b-4894-8a37-f96e50dc61c6)
+
+        Desktop 1200px
+![Desktop 1200px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/c0170e3b-b855-4249-9ed9-5473790c66b2)
+
+**My profile**
+
+        Mobile 320px
+![Mobile 320px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/857e0db0-cdd8-4368-8d61-4de9dd57e7e7)
+
+        Tablet 768px
+![Tablet 768px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/58ecf67a-2e17-4a08-a32b-a260312b7397)
+
+        Desktop 1200px
+![Desktop 1200px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/23cf24bf-f937-49a1-8472-1718e0f469d1)
+
+
+**Management**
+
+        Mobile 320px
+![Mobile 320px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/6661b264-500a-4c4b-be53-fcd1e245ebc1)
+
+        Tablet 768px
+![Tablet 768px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/d28739d7-d9a4-4013-a314-7e781f7ecf7d)
+
+        Desktop 1200px
+![Desktop 1200px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/3f9f947f-29e9-4f7e-982b-21d8a83b21df)
+
+
+**Edit festival**
+
+        Mobile 320px
+![Mobile 320px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/39ca67bc-2fb3-4ee1-a9b3-cffdd73f0e37)
+
+        Tablet 768px
+![Tablet 768px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/f2ebffd7-058f-43e9-a0f8-ed599b021348)
+
+        Desktop 1200px
+![Desktop 1200px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/89f53b94-e1eb-400e-a7d6-717fb593a5e1)
+</details>
