@@ -539,3 +539,251 @@ The website was tested extensively on Chrome dev tools for responsiveness.  All 
         Desktop 1200px
 ![Desktop 1200px](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/89f53b94-e1eb-400e-a7d6-717fb593a5e1)
 </details>
+
+[Back To Top](#table-of-contents)
+
+_____
+
+# Browser Compatibility
+
+The website was tested on current Chrome, Firefox, Edge and Brave for compatibility.
+
+| Intended      | Chrome    | Firefox   | Edge  | Brave     |
+|---------------|-----------|-----------|-------|-----------|
+| Appearance    | Good      | Good      | Good  | Good      |
+| Responsiveness| Good      | Good      | Good  | Good      |
+
+[Back To Top](#table-of-contents)
+
+_____
+
+# User Stories
+
+Each [User Story](https://github.com/BohdanBezushka/wherearewegoing/issues) has been manually tested and the results have been collected in the tables below.
+
+<details>
+<summary>User Story:</summary>
+
+* USER STORY: View a list of festivals [#2](https://github.com/BohdanBezushka/wherearewegoing/issues/2)
+
+As a user, I can view a list of all available festivals for purchase so that I can explore and choose the ones that interest me.
+
+| Acceptance Criteria  | Test     | Comments |
+|:--------------------:|:--------:| -------- |
+| View a list of all festivals. | Achieved | |
+| View festival name. | Achieved | |
+| View price. | Achieved | |
+| View dates. | Achieved | |
+
+* USER STORY: View individual festivals [#3](https://github.com/BohdanBezushka/wherearewegoing/issues/3)
+
+As a user, I can view individual information for each festival so that I can access detailed information about each event.
+
+| Acceptance Criteria  | Test     | Comments |
+|:--------------------:|:--------:| -------- |
+| Each festival has its own webpage with informative content. | Achieved | |
+| Each festival has its link to the official festival website. | Achieved | |
+
+* USER STORY: Buy tickets [#4](https://github.com/BohdanBezushka/wherearewegoing/issues/4)
+
+As a user, I can purchase tickets for any desired festival so that I can attend the festival of my choice.
+
+| Acceptance Criteria  | Test     | Comments |
+|:--------------------:|:--------:| -------- |
+| The user can see the tickets in the shopping bag. | Achieved | |
+
+* USER STORY: Preferences [#5](https://github.com/BohdanBezushka/wherearewegoing/issues/5)
+
+As a user, I can sort festivals by date, country, and price so that I can easily find and select festivals based on my preferences.
+
+| Acceptance Criteria  | Test     | Comments |
+|:--------------------:|:--------:| -------- |
+| The user can view festivals according to date.| Achieved | |
+| The user can view festivals according to country. | Achieved | | 
+| The user can view festivals according to price. | Achieved | | 
+ 
+* USER STORY: Search bar. [#6](https://github.com/BohdanBezushka/wherearewegoing/issues/6)
+
+As a user, I can search for a specific festival using the search bar so that I can quickly find and access the desired festival.
+
+| Acceptance Criteria  | Test     | Comments |
+|:--------------------:|:--------:| -------- |
+| The search bar functions properly, providing optimal results to the user.| Achieved | |
+ 
+* USER STORY: Add a form prior to purchasing. [#7](https://github.com/BohdanBezushka/wherearewegoing/issues/7)
+
+As a user, I can enter my first name, last name, phone number, ID, and email address so that I have my tickets assigned to my account, providing the benefit of personalized ticket management.
+
+| Acceptance Criteria  | Test     | Comments |
+|:--------------------:|:--------:| -------- |
+| The user must provide their personal information before purchasing the tickets.| Achieved | |
+ 
+* USER STORY: Stripe payment [#8](https://github.com/BohdanBezushka/wherearewegoing/issues/8)
+
+As a user, I can add my credit card to purchase the tickets so that I can securely and conveniently complete the transaction.
+
+| Acceptance Criteria  | Test     | Comments |
+|:--------------------:|:--------:| -------- |
+| Stripe payment works correctly.| Achieved | |
+
+ * USER STORY: History orders [#9](https://github.com/BohdanBezushka/wherearewegoing/issues/9)
+
+As a user, I can view a record of my purchases so that I can keep track of my transactions and have a history of my past orders.
+
+| Acceptance Criteria  | Test     | Comments |
+|:--------------------:|:--------:| -------- |
+| User views history orders.| Achieved | |
+| User views total expenses.| Achieved | |
+
+ * USER STORY: Tickets by email [#10](https://github.com/BohdanBezushka/wherearewegoing/issues/10)
+
+As a user, I receive a message with the tickets to download so that I can have a digital copy of my tickets for easy access.
+
+| Acceptance Criteria  | Test     | Comments |
+|:--------------------:|:--------:| -------- |
+| When the customer has made a payment, they receive a message with the purchased tickets.|No Achieved | |
+
+ * USER STORY: Responsive design  [#11](https://github.com/BohdanBezushka/wherearewegoing/issues/11)
+
+As a user, I can use the application on any device so that I can access it from anywhere.
+
+| Acceptance Criteria  | Test     | Comments |
+|:--------------------:|:--------:| -------- |
+| The application functions properly on any device.| Achieved | |
+
+ * USER STORY: Idea of the website #12  [#12](https://github.com/BohdanBezushka/wherearewegoing/issues/12)
+
+As a user, I can get an idea of the website's layout and design so that I can have a visual understanding of how the website looks and functions.
+
+| Acceptance Criteria  | Test     | Comments |
+|:--------------------:|:--------:| -------- |
+| The website has a simple and descriptive style.| Achieved | |
+
+
+ * USER STORY: Easy registration  [#13](https://github.com/BohdanBezushka/wherearewegoing/issues/13)
+
+As a user, I can create a personal account to view my profile so that I can access personalized features and manage my information effectively.
+
+| Acceptance Criteria  | Test     | Comments |
+|:--------------------:|:--------:| -------- |
+| The user can easily create an account.| Achieved | |
+
+
+ * USER STORY: Easy login and out [#14](https://github.com/BohdanBezushka/wherearewegoing/issues/14)
+
+As a user, I can easily log in and log out so that I can access my account securely and manage my personal information effectively
+
+| Acceptance Criteria  | Test     | Comments |
+|:--------------------:|:--------:| -------- |
+| The user can log in and log out easily.| Achieved | |
+
+
+ * USER STORY: Recover password [#15](https://github.com/BohdanBezushka/wherearewegoing/issues/15)
+
+As a user, I can recover my password in case I forget it so that I can regain access to my account and continue using the platform without any interruptions.
+
+| Acceptance Criteria  | Test     | Comments |
+|:--------------------:|:--------:| -------- |
+| The user recovers their account via email.| Achieved | |
+| The user can enter a new password.| Achieved | |
+
+ * USER STORY: Verify email [#16](https://github.com/BohdanBezushka/wherearewegoing/issues/16)
+
+As a user, I want to receive an email to verify my new account so that I can ensure the security and legitimacy of my account registration.
+
+| Acceptance Criteria  | Test     | Comments |
+|:--------------------:|:--------:| -------- |
+| The user receives a registration verification email.| Achieved | |
+| The user can use the account after verifying it through email.| Achieved | |
+
+
+ * USER STORY: Different ways to create an account [#17](https://github.com/BohdanBezushka/wherearewegoing/issues/17)
+
+As a user, I want to be able to register in different ways so that I can have flexibility and convenience in creating my account.
+
+| Acceptance Criteria  | Test     | Comments |
+|:--------------------:|:--------:| -------- |
+| The user can register using their Google account or phone number.| No achieved | |
+
+ * USER STORY: Customer support [#18](https://github.com/BohdanBezushka/wherearewegoing/issues/18)
+
+As a user, I have a dedicated section where I can communicate with customer support for any issues or questions so that I can receive timely assistance and have my concerns addressed effectively.
+
+| Acceptance Criteria  | Test     | Comments |
+|:--------------------:|:--------:| -------- |
+| The user can communicate with the support team at any time.| Achieved | |
+
+
+ * USER STORY: Admin panel [#19](https://github.com/BohdanBezushka/wherearewegoing/issues/19)
+
+As an owner, I can view all available events from the admin panel so that I can effectively manage and monitor the event listings.
+
+| Acceptance Criteria  | Test     | Comments |
+|:--------------------:|:--------:| -------- |
+| The owner can view a list of all festivals.| Achieved | |
+
+ * USER STORY: Add, delete and modify event [#20](https://github.com/BohdanBezushka/wherearewegoing/issues/19)
+
+As an owner, I can add, modify, and delete an event from the admin panel so that I can effectively manage and update the event information as needed, ensuring accurate and up-to-date listings.
+
+| Acceptance Criteria  | Test     | Comments |
+|:--------------------:|:--------:| -------- |
+| The owner can add a festival.| Achieved | |
+| The owner can modify a festival.| Achieved | |
+| The owner can delete a festival.| Achieved | |
+
+
+ * DEVELOPER TASK: Marketing [#21](https://github.com/BohdanBezushka/wherearewegoing/issues/21)
+
+Create the files and meta tags to improve the website's search engine optimization (SEO)
+
+| Acceptance Criteria  | Test     | Comments |
+|:--------------------:|:--------:| -------- |
+| I have the robots.txt file.| Achieved | |
+| I have the sitemap.xml file.| Achieved | |
+| I have the meta tags.| Achieved | |
+
+
+ * USER STORY: Social Media [#22](https://github.com/BohdanBezushka/wherearewegoing/issues/22)
+
+As an owner, I can leverage my social media presence to create a strong brand in the market so that I can increase brand visibility, engage with customers, and ultimately grow my business.
+
+| Acceptance Criteria  | Test     | Comments |
+|:--------------------:|:--------:| -------- |
+| The website has an Instagram account.| Achieved | |
+| The website has a Facebook account.|No achieved | I didn't have enough time |
+
+
+ * DEVELOPER TASK: 404 error page. [#23](https://github.com/BohdanBezushka/wherearewegoing/issues/23)
+
+Create a custom 404 error page.
+
+| Acceptance Criteria  | Test     | Comments |
+|:--------------------:|:--------:| -------- |
+| When an error occurs, the 404 error page appears.| Achieved | |
+
+
+ * DEVELOPER TASK: README.md [#24](https://github.com/BohdanBezushka/wherearewegoing/issues/24)
+
+Write the README file with all the project details.
+
+| Acceptance Criteria  | Test     | Comments |
+|:--------------------:|:--------:| -------- |
+| The README file includes all the sections from the previous project and a new section on Marketing.| Achieved | |
+
+</details>
+
+[Back To Top](#table-of-contents)
+
+_____
+
+## Features Testing
+
+
+
+
+
+
+
+
+
