@@ -294,4 +294,47 @@ _____
 [Back To Top](#table-of-contents)
 _____
 
-# Lighthouse
+# c
+[Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) was used to audit the website for performance, accessibility, best practice and SEO.  This was run in Chrome DevTools in incognito mode.
+
+The following are the results for all pages:
+
+| Page | Device | Performance | Accessibility | Best Practice | SEO |
+| ---- | ------ | ----------- | ------------- | ------------- | --- |
+| Home | desktop  |  72 | 86 | 100 |  100 |
+|                               | desktop | 73 | 86 | 100 | 100 |
+| Festivals | desktop  |  96 | 83 | 100 |  90 |
+|                          | mobile | 73 | 83 | 92 | 92 |
+| Festival detail  | desktop  |  75 | 72 | 92 |  100 |
+|                          | mobile | 70 | 72 | 92 | 100 |
+| Bag    | desktop  |  97 | 71 |  100 |  90 |
+|                          | mobile | 80 | 71 |  100 | 89 |
+| Checkout       | desktop |  69 | 87 | 100 |  100 |
+|                          | mobile |  74 | 87 | 100 | 100 |
+| Checkout success     | desktop  |  95 | 83 | 100 | 100 |
+|                          | mobile | 77 | 83 | 100 | 100 |
+| Contact      | desktop  |  95 | 78 | 100 |  100 |
+|                          | mobile |  72 | 86 | 100 | 100 |
+| About us       | desktop  |  92 | 78 | 100 |  100 |
+|                          | mobile |  81 | 86 | 100 | 100 |
+| Newsletter      | desktop  |  93 | 76 | 100 |  100 |
+|                          | mobile |  65 | 85 | 100 | 100 |
+| Sign in       | desktop  |  96 | 78 | 100 |  100 |
+|                          | mobile |  81 | 84 | 92 | 100 |
+| Sign up    | desktop  |  98 | 76 | 100 |  100 |
+|                          | mobile |  80 | 84 | 100 | 100 |
+| Forgot Password?     | desktop |  79 | 84 | 92 |  100 |
+|                          | mobile |  99 | 95 | 92 | 100 |
+| Sign out      | desktop  |  98 | 76 | 100 |  90 |
+|                          | mobile |  86 | 83 | 92 | 92 |
+| My Profile       | desktop  |  97 | 77 | 100 | 90 |
+|                          | mobile |  75 | 85 | 100 | 92 |
+| Management    | desktop  |  96 | 71 | 100 |  90 |
+|                          | mobile |  80 | 79 | 100 | 92 |
+| Edit Festival      | desktop  |  97 | 60 | 100 |  80 |
+|                          | mobile |  76 | 68 | 100 | 83 |
+
+Comments on the results:
+* The negative performance results are due to Stripe files and the use of AWS storage.
+*As for the negative data on accessibility, I would like to improve it when I have time, using the indications and suggestions of Lighthouse.
+
