@@ -875,7 +875,130 @@ All Tests Passed
 <br>
 </details>
 
+<details>
+<summary>Home Content</summary>
+<br>
+
+| Feature | Action | Effect |
+|------------|----------|---------|
+| Festival Ticktes button 	| hover over	| changes colour of border, address shows festivals |
+|			| click / tap	| directs to Festivals Page |
+
+All Tests Passed
+
+<br>
+</details>
 
 
+<details>
+<summary>All Festivals</summary>
+<br>
+
+<br>
+
+**Sort-Selector**
+
+| Feature	 | Action 	| Effect 		|
+|--------------------|--------------------|-------------------|
+| Sort-selector box	| click / tap 	| drops down a list of sort choices |
+| Name (A – Z)		| click / tap / enter |Sorts festivals by name alphabetical order |
+| Name (Z – A)		| click / tap / enter |Sorts festivals by name reverse alphabetical |
+| Date (Soon – Late)		| click / tap / enter |Sorts festivals by soon order |
+| Date (Late – Soon)		| click / tap / enter |Sorts festivals by late order |
+| Location	(A – Z)	| click / tap / enter |Sorts festivals by location alphabetical order |
+| Location	(Z – A)	| click / tap / enter |Sorts festivals by location reverse alphabetical |
+| Price (low to high)	| click / tap / enter |Sorts festivals by price ascending |
+| Price (high to low) 	| click / tap / enter |Sorts festivals by price descending |
+
+<br>
+
+**Festival Cards**
+
+| Feature	 | Action 	| Effect 		|
+|--------------------|--------------------|-------------------|
+| Festival image	| hover over	| address shows shop/festival id |
+|			| click / tap	| directs to Festival Detail Page |
+|Name			| view		| displays festival name	|
+|Date		| view		| displays festival date	|
+|Location		| view		| displays festival location	|
+|Price			| view		| displays festival price		|
+|Button up		| click / tap		| goes up		|
+
+All Tests Passed
+
+<br>
+</details> 
+
+
+<details>
+<summary>Festival Detail</summary>
+<br>
+
+**Festival Detail Section**
+
+| Feature	 | Action 	| Effect 		|
+|--------------------|--------------------|-------------------|
+| Product image 	| hover over 	| address shows s3.amazonaws.com/media/<image file name>.jpg |
+| 	| click / tap	| directs to full page image file |
+| Festival name link 	| hover over 	| address shows url |
+| 	| click / tap	| a new page opens with the url page |
+| Festival info | view	| shows description, date, location and price |
+| Quantity Selector (-) 	| default view	| lighter in colour than the (+) selector |
+|			| hover over | colour changes, tooltip “Decrease Quantity” |
+|	| click / tap	| no effect |
+| Quantity Selector (+) 	| default view	| darker in colour than the (-) selector |
+|			| hover over | colour changes, tooltip “Increase Quantity” |
+|	| click / tap	| quantity in input box is incremented |
+| Input field	| type non digits	| no effect |
+|		| type digits		| displays digits |
+|		| leave blank		| no effect |
+| Add to Bag button	| hover over 	| change colour border |
+|	| click / tap	| if quantity is valid, success message is triggered and festival + quantity are added to bag|
+|	|		|if quantity is invalid, error message is triggered | 
+| Keep shopping button	| hover over 	| changes colour border, address shows festivals url |
+|	| click / tap	| directs back to festivals page |
+
+All Tests Passed
+
+<br>
+</details> 
+
+<details>
+<summary>Bag</summary>
+<br>
+
+The Basket Page can be accessed via the basket icon on the top navigation bar as well as by the button that appears in the toast after adding a product to the bag.
+
+**Empty Bag** 
+
+| Feature	 | Action 	| Effect 		|
+|--------------------|--------------------|-------------------|
+| Text	| view	| Your bag is empty. |
+| Keep shopping button	| hover over 	| changes colour border, address shows festivals url |
+
+All Tests Passed
+
+<br>
+
+**Festivals in Basket**
+
+| Feature	 | Action 	| Effect 		|
+|--------------------|--------------------|-------------------|
+| (-) button	| hover over	| changes colour |
+|		| click / tap	| decrements quantity in input field |
+| (+) button	| hover over 	| changes colour |
+|		| click / tap	| increments quantity in input field |
+| Update button | hover over 	| changes colour border |
+| 		| click / tap	| festival quantity updated, totals change depending on the quantity, success toast displays updated festival & bag summary |
+| Remove button | hover over	| changes colour border |
+| 		| click / tap 	| festival removed, totals change, success toast displays updated festival & bag summary |
+| Keep Shopping button | hover over | changes colour border, address shows shop |
+|			| click / tap | directs to Shop / All Festivals Page |
+| Secure Checkout button | hover over | changes colour border, address shows checkout |
+|		| click / tap | directs to Checkout Page |
+
+All Tests Passed
+<br>
+</details>
 
 
