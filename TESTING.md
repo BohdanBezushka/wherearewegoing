@@ -774,14 +774,106 @@ Write the README file with all the project details.
 </details>
 
 [Back To Top](#table-of-contents)
-
 _____
 
 ## Features Testing
 
+Each feature listed in the [README.md](README.md) file has been manually tested on the browsers listed in [Browser Compatibility Testing](#browser-compatibility) and the results are listed in the tables below.
 
+<details>
+<summary>Header & Navigation</summary>
+<br>
 
+**Top Navigation**
 
+*Unregistered / Not logged in user*
+
+| Feature | Action | Effect |
+|------------|----------|---------|
+| Logo	| hover over	 | address shows as home 	|
+|	| click/tap	 | directs to Home |
+| Search icon on mobile	 | tap		|  colour changes, search field opens below |
+| Search bar	| click/tap  text input	| gets focus and prompt for text |
+|		| type & enter		| directs to Shop Page with query |
+|		| enter only		| directs to Shop Page all festivals |
+| Search icon on desktop| click		| directs to Shop Page all festivals |
+| Account icon|click/tap	| drops down Register, Login links |
+| Register link	| click / tap	| directs to Registration Page |
+| Login link| click / tap	| directs to Login Page |
+|Basket Icon on mobile | tap 	| drops down basket total link |
+|Basket total link	|tap	| directs to Shopping Basket |
+|Basket Icon on desktop | hover over | address changes to basket |
+|			| click / tap    | directs to Shopping Basket Page |
+
+All Tests Passed
+
+<br>
+
+*Registered / Logged in user*
+
+| Feature | Action | Effect |
+|------------|----------|---------|
+| My Profile link	| hover over	|  address shows as profile |
+|		| click / tap	| directs to user’s Profile Page |
+| Logout link	| hover over 	| address shows as logout |
+|		| click / tap	| directs to Log Out Page |
+
+All Tests Passed
+
+<br>
+
+**Main Navigation**
+
+| Feature | Action | Effect |
+|------------|----------|---------|
+| Hamburger button on mobile | tap | toggles down menu |
+| Home link	| hover over	| address shows as home |
+|		| click / tap 	| directs to Home|
+|Festivals link	|hover over	| address shows # |
+|		| click / tap	| drops down menu with more links |
+| Contact link	| hover over	| address shows contact |
+|		| click / tap	| directs to Contact Page |
+| More link	| hover over	| address shows more |
+|		| click / tap	| drops down menu with more links |
+
+All Tests Passed
+
+<br>
+</details>
+
+<details>
+<summary>Footer</summary>
+<br>
+
+| Feature | Action | Effect |
+|------------|----------|---------|
+| Website logo	            | hover over                | address shows home |
+|		                    | click / tap               | directs to Home |
+| Festival link            | hover over                | displays a button and changes colour of the letters, address shows festival |
+|		                    | click / tap               | directs to Festivals|
+| About us link            | hover over                |displays a button and changes the colour of the letters, address shows About us |
+|		                    | click / tap               | directs to About us|
+| Newsletter us link            | hover over                |displays a button and changes colour of the letters, address shows Newsletter |
+|		                    | click / tap               | directs to Newsletter|
+| Contact us link            | hover over                |displays a button and changes colour of the letters, address shows Contact |
+|		                    | click / tap               | directs to Contact|
+| Privacy Policy link            | hover over                |displays a button and changes colour of the letters, address shows Privacy Policy |
+|		                    | click / tap               | a new page opens with the privacy policy|
+| Facebook link            | hover over                |displays a button and changes colour of the letters, address shows url |
+|		                    | click / tap               | a new page opens with the Facebook page|
+| Instagram link            | hover over                |displays a button and changes colour of the letters, address shows url |
+|		                    | click / tap               | a new page opens with the Instagram page|
+| Twitter link            | hover over                |displays a button and changes colour of the letters, address shows url |
+|		                    | click / tap               | a new page opens with the Twitter page|
+| Github link            | hover over                |displays a button and changes colour of the letters, address shows url |
+|		                    | click / tap               | a new page opens with the Github page|
+| Linkedin link            | hover over                |displays a button and changes colour of the letters, address shows url |
+|		                    | click / tap               | a new page opens with the Linkedin page|
+
+All Tests Passed
+
+<br>
+</details>
 
 
 
