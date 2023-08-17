@@ -980,7 +980,7 @@ All Tests Passed
 
 <br>
 
-**Festivals in Basket**
+**Festivals in Bag**
 
 | Feature	 | Action 	| Effect 		|
 |--------------------|--------------------|-------------------|
@@ -1001,4 +1001,219 @@ All Tests Passed
 <br>
 </details>
 
+<details>
+<summary>Checkout</summary>
+<br>
 
+**Checkout Page**
+
+*Registered / Logged in Users*
+
+| Feature	 | Action 	| Effect 		|
+|--------------------|--------------------|-------------------|
+| Form Validation | submit form with required fields left blank | tooltip directs user to fill in required field |
+| Save info box 	| Tick and check profile info after checkout | profile details populated with correct info |
+| Payment field | Enter invalid card no | text goes red, error message below “x your card number is invalid” | 
+| Adjust Bag button | hover over | changes colour border, address shows basket |
+|	| click / tap	| directs to Bag Page |
+| Complete Order button | hover over | changes colour border |
+|			| click / tap | if form is valid  directs to black overlay with white spinner then Checkout Success Page |  
+
+All Tests Passed
+
+<br>
+
+*Unregistered / Not logged in Users*
+
+This table tests two links that are available for unregistered guests instead of the Save Info box in the previous table.
+
+| Feature	 | Action 	| Effect 		|
+|--------------------|--------------------|-------------------|
+| Create an account link | hover over | gets underline, address shows accounts/signup |
+|			| click / tap | directs to Register Page |
+| Login to save information link | hover over | gets underline, address shows accounts/login |
+|			| click / tap | directs to Login Page |
+
+All Tests Passed
+
+<br>
+
+**Checkout Success Page**
+
+| Feature	 | Action 	| Effect 		|
+|--------------------|--------------------|-------------------|
+|Success Toast 	| View		| displays just below the navbar, including order no. & email address|
+|Order Confirmation Information | view | displays festival names, quantity, totals, delivery info & email address | 
+| Keep watching festivals! button | hover over | changes colour border |
+|		| click / tap | directs to Festival Shop Page |
+
+All Tests Passed
+
+<br>
+</details>
+
+
+<details>
+<summary>Profile</summary>
+<br>
+
+| Feature	 | Action 	| Effect 		|
+|--------------------|--------------------|-------------------|
+| Form 		| Fill in | Form is filled in with user’s default delivery info |
+| Update information button | hover over | change colour border |
+|			| click / tap | Toast Success Profile updated successfully |
+| Order history | hover over | displays full order number |
+|	| click / tap | directs to order history detail, toast alert notifies user that this is a past confirmation for order number … |
+| Back to Profile button | hover over | changes colour border, address shows profile |
+|	| click / tap | directs to Profile Page |
+
+All Tests Passed
+
+<br>
+</details>
+
+<details>
+<summary>Registration & Authentication</summary>
+<br>
+
+**Registration Page**
+
+This page can be accessed by a non-logged in user via the My Account icon on the navbar and the Checkout form on the Checkout Page as well as the Login Page.
+
+| Feature	 | Action 	| Effect 		|
+|--------------------|--------------------|-------------------|
+| sign link	| hover over	| gets underline, address shows accounts/login |
+|		|click / tap	| directs to the Login Page |
+| Form validation | submit form with required fields left blank | tooltip directs user to fill in required field |
+|Back to Login button | hover over | changes colour border, address shows accounts/login |
+|		|click/tap	| directs to the sign Page |
+|Sign up button	|hover over	|changes colour border	|
+|			|click / tap	| directs to Confirm Email Page, alert toast shows user’s email address |
+
+All Tests Passed
+
+<br>
+
+**Confirm Email Page**
+
+| Feature	 | Action 	| Effect 		|
+|--------------------|--------------------|-------------------|
+|Instructs the user to check their email to verify Email address | view | user clicks on the link in the email received |
+|Confirm Email Page with email URL | view | instructs user to confirm email and username by clicking the Confirm button |
+|Confirm button | hover over | changes colour border |
+|		| click / tap | directs to Login Page with success alert |
+
+All Tests Passed
+
+<br>
+
+**Login Page**
+
+The Login Page can be accessed by a registered user straight after registration or via the My Account icon in the Top Navigation bar.
+
+| Feature	 | Action 	| Effect 		|
+|--------------------|--------------------|-------------------|
+| sinn up link| hover over	| gets underline, address shows accounts/signup|
+|		|click / tap	| directs to the Registration Page |
+| Form validation | submit form with required fields left blank | tooltip directs user to fill in required field |
+|		|submit form with wrong information | error message highlighted at the top of the form |
+|Remember me checkbox | click / tap | ticks the checkbox |
+|Sign in button	|hover over	|changes colour border	|
+|			|click / tap	| directs to Home Page, success toast alerts user that they are successfully logged in |
+|Forgot Password? Link |hover over | gets underline, address shows accounts/password/reset|
+|		| click / tap | directs to Password Reset Page |
+| Home button | hover over	|changes colour border, address shows home |
+|		| click / tap 	| directs to the Home Page |
+
+All Tests Passed
+
+<br>
+
+**Logout Page**
+
+The Logout Page can be accessed via the My Account icon dropdown on the Top Navigation bar. 
+
+| Feature	 | Action 	| Effect 		|
+|--------------------|--------------------|-------------------|
+| Cancel button	| hover over	| changes colour border, address shows home |
+|		| click / tap 	| directs to Home Page without logging out |
+| Logout button	| hover over	| changes colour border |
+|		| click / tap	| directs to Home Page logging out user, success toast message |
+
+All Tests Passed
+
+<br>
+
+</details>
+
+
+<details>
+<summary>Contact</summary>
+
+<br>
+
+| Feature	 | Action 	| Effect 		|
+|--------------------|--------------------|-------------------|
+| Contact info	| view | display contact info | 	
+| Return to shop button | hover over | changes colour border, address shows shop |
+|		| click / tap | directs to Festival Shop Page |
+
+All Tests Passed
+
+<br>
+</details>
+
+<details>
+<summary>About us</summary>
+
+<br>
+
+| Feature	 | Action 	| Effect 		|
+|--------------------|--------------------|-------------------|
+| About us info	| view | display about us info | 	
+| Return to shop button | hover over | changes colour border, address shows shop |
+|		| click / tap | directs to Festival Shop Page |
+
+All Tests Passed
+
+<br>
+</details>
+
+<details>
+<summary>Newsletter</summary>
+
+<br>
+
+| Feature	 | Action 	| Effect 		|
+|--------------------|--------------------|-------------------|
+| Newsletter form	| submit form with required fields left blank | tooltip directs user to fill in required field |
+| Subscribe button | hover over | changes colour |
+|		| click / tap | a message appears saying that you have just subscribed |
+| Return to shop button | hover over | changes colour border, address shows shop |
+|		| click / tap | directs to Festival Shop Page |
+
+All Tests Passed
+
+<br>
+</details>
+
+<details>
+<summary>Error 404</summary>
+<br>
+
+| Feature	 | Action 	| Effect 		|
+|--------------------|--------------------|-------------------|
+| To test Error 404 page | type `/test` at the end of url | directed to Error 404 page |
+| Return to shop button | hover over | changes colour border, address shows shop |
+|		| click / tap | directs to Festival Shop Page |
+
+All Tests Passed
+
+<br>
+</details>
+
+[Back To Top](#table-of-contents)
+
+_____
+
+[Back to README.md](README.md)
