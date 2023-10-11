@@ -1,3 +1,4 @@
+import os
 from django.shortcuts import render, redirect, reverse, get_object_or_404, HttpResponse  # noqa
 from django.views.decorators.http import require_POST
 from django.contrib import messages
@@ -5,6 +6,7 @@ from django.conf import settings
 
 # Send purchase confirmation message to customer's email address.
 from django.core.mail import send_mail
+
 
 from .forms import UserDataForm
 from .models import UserData, Ticketing
