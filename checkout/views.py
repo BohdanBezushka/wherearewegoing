@@ -3,6 +3,9 @@ from django.views.decorators.http import require_POST
 from django.contrib import messages
 from django.conf import settings
 
+# Send purchase confirmation message to customer's email address.
+from django.core.mail import send_mail
+
 from .forms import UserDataForm
 from .models import UserData, Ticketing
 
@@ -143,6 +146,13 @@ def checkout_success(request, order_number):
     messages.success(request, f'Order successfully processed! \
         Your order number is {order_number}. A confirmation \
         email will be sent to {order.email}.')
+    # Send purchase confirmation message to customer's email address
+    subject = f'Order Confirmation: {order_number}'
+    message = f'Thank {order.full_name} for buying your tickets with Where Are We Going! Your order number is {order_number}.'
+    from_email = os.environ.get('EMAIL_HOST_USER')
+    recipient_list = [order.email]
+
+    send_mail(subject, message, from_email, recipient_list)
 
     if 'bag' in request.session:
         del request.session['bag']
