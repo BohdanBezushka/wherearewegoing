@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from .forms import ContactForm
 
 
 # Create your views here.
@@ -16,6 +17,8 @@ def about_us(request):
 
 def contact(request):
     """ Contact for issues with tickets"""
+
+    
 
     return render(request, 'home/contact.html')
 
