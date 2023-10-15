@@ -28,7 +28,22 @@
             <p class="text-size contact-size"><i class="fa-brands fa-whatsapp"></i> WhatsApp Business: +34 684 095 474</p>
 
             <!--Contact Form:-->
-            {{form}}
+            <form method="post">
+                {% csrf_token %}
+                {{ form.name.label_tag }} {{ form.name }}
+                <br>
+                {{ form.email.label_tag }} {{ form.email }}
+                <br>
+                {{ form.phone.label_tag }} {{ form.phone }}
+                <br>
+                {{ form.title.label_tag }} {{ form.title }}
+                <br>
+                {{ form.description.label_tag }} {{ form.description }}
+                <br>
+                {{ form.contact_method.label_tag }} {{ form.contact_method }}
+                <br>
+                <button type="submit">Enviar</button>
+            </form>
 
 
 
