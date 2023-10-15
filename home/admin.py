@@ -1,3 +1,9 @@
 from django.contrib import admin
+from .models import ContactForm
 
-# Register your models here.
+
+class ContactFormAdmin(admin.ModelAdmin):
+    list_display = ('name', 'email', 'phone', 'title', 'contact_method', 'created_at')
+
+
+admin.site.register(ContactForm, ContactFormAdmin)
