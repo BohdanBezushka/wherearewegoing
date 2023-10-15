@@ -18,7 +18,13 @@ def about_us(request):
 def contact(request):
     """ Contact for issues with tickets"""
 
-    form = ContactForm()
+    if request.method == 'POST':
+        form = Contact(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect(request.path)
+    else:
+        form = Contact()
 
     return render(request, 'home/contact.html', {'form': form})
 
