@@ -18,9 +18,9 @@ def about_us(request):
 def contact(request):
     """ Contact for issues with tickets"""
 
-    
+    form = ContactForm()
 
-    return render(request, 'home/contact.html')
+    return render(request, 'home/contact.html', {'form': form})
 
 def newsletter(request):
     """ Newsletter for users who want to be informed about new festivals, news..."""
