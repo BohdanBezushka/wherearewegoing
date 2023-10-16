@@ -29,7 +29,7 @@
 
             <!--Contact Form:-->
             <div class="text-left">
-                <form method="post" class="border p-3 rounded">
+                <form action="{% url 'contact' %}" method="post" class="border p-3 rounded">
                     {% csrf_token %}
                     <p>Would you like to be contacted?</p>
                     <div class="form-group">
