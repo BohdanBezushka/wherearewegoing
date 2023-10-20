@@ -33,11 +33,11 @@ ALLOWED_HOSTS = ['where-are-we-going-d3621addaf03.herokuapp.com', 'localhost']
 
 
 # ZONA DE TRABAJO:
-# SECRET_KEY = 'django-insecure-t9#z61#k=5$k&ku9vz!9aem)y*xjqh7l7ps+3qa^it8oklh(-b'
+#SECRET_KEY = 'django-insecure-t9#z61#k=5$k&ku9vz!9aem)y*xjqh7l7ps+3qa^it8oklh(-b'
 
-# DEBUG = True
+#DEBUG = True
 
-# ALLOWED_HOSTS = ['8000-bohdanbezus-whereareweg-rcrnbp4yxk0.ws-us105.gitpod.io']
+#ALLOWED_HOSTS = ['8000-bohdanbezus-whereareweg-rcrnbp4yxk0.ws-us105.gitpod.io']
 
 # ---------------------------------------
 
