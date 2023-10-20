@@ -1,5 +1,11 @@
 import os
-from django.shortcuts import render, redirect, reverse, get_object_or_404, HttpResponse  # noqa
+from django.shortcuts import (
+    render,
+    redirect,
+    reverse,
+    get_object_or_404,
+    HttpResponse
+)
 from django.views.decorators.http import require_POST
 from django.contrib import messages
 from django.conf import settings
@@ -75,20 +81,24 @@ def checkout(request):
                         ticketing.save()
                 except Festival.DoesNotExist:
                     messages.error(request, (
-                        "One of the festivals in your bag wasn't found in our database. "   # noqa
+                        "One of the festivals in your \
+                            bag wasn't found in our database. "
                         "Please call us for assistance!")
                     )
                     order.delete()
                     return redirect(reverse('view_bag'))
             request.session['save_info'] = 'save-info' in request.POST
-            return redirect(reverse('checkout_success', args=[order.order_number]))  # noqa
+            return redirect(reverse('checkout_success', args=[
+                order.order_number
+            ]))
         else:
             print(userdata_form.errors)
             messages.error(request, 'There was an error with your form. \
                 Please double check your information.')
     else:
         if not bag:
-            messages.error(request, "There's nothing in your bag at the moment.")  # noqa
+            messages.error(request, "There's nothing \
+                in your bag at the moment.")
             return redirect(reverse('festivals'))
 
         # Prefill the form with any info the user maintains in their profile.
@@ -150,7 +160,8 @@ def checkout_success(request, order_number):
         email will be sent to {order.email}.')
     # Send purchase confirmation message to customer's email address
     subject = f'Order Confirmation: {order_number}'
-    message = f'Thank {order.full_name} for buying your tickets with Where Are We Going! Your order number is {order_number}.'
+    message = f'Thank {order.full_name} for buying your tickets with \
+        Where Are We Going! Your order number is {order_number}.'
     from_email = os.environ.get('EMAIL_HOST_USER')
     recipient_list = [order.email]
 

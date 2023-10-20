@@ -9,7 +9,10 @@ class ContactForm(models.Model):
     phone = models.CharField(max_length=20, null=True)
     title = models.CharField(max_length=100)
     description = models.TextField()
-    contact_method = models.CharField(max_length=10, choices=[('call', 'Call'), ('message', 'Send Message')])
+    contact_method = models.CharField(
+        max_length=10,
+        choices=[('call', 'Call'), ('message', 'Send Message')]
+    )
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):

@@ -37,7 +37,8 @@ def all_festivals(request):
         if 'q' in request.GET:
             query = request.GET['q']
             if not query:
-                messages.error(request, "You didn't enter any search criteria!")  # noqa
+                messages.error(request, "You didn't enter \
+                    any search criteria!")
                 return redirect(reverse('festivals'))
             queries = Q(name__icontains=query) | Q(description__icontains=query)  # noqa
             festivals = festivals.filter(queries)
@@ -79,7 +80,8 @@ def add_festival(request):
             messages.success(request, 'Successfully added festival!')
             return redirect(reverse('festival_detail', args=[festival.id]))
         else:
-            messages.error(request, 'Failed to add festival. Please ensure the form is valid.')  # noqa
+            messages.error(request, 'Failed to add festival. \
+                Please ensure the form is valid.')
     else:
         form = FestivalForm()
 
@@ -107,7 +109,8 @@ def edit_festival(request, festival_id):
             messages.success(request, 'Successfully updated festival!')
             return redirect(reverse('festival_detail', args=[festival.id]))
         else:
-            messages.error(request, 'Failed to update festival. Please ensure the form is valid.')  # noqa
+            messages.error(request, 'Failed to update festival. \
+                Please ensure the form is valid.')
     else:
         form = FestivalForm(instance=festival)
         messages.info(request, f'You are editing {festival.name}')

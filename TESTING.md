@@ -108,7 +108,7 @@ checkout.css
 _____
 
 ## Python
-Python code was tested using [Code Institute's Python Linter](https://pep8ci.herokuapp.com/). Long lines were deleted using `# noqa`. 
+Python code was tested using [Code Institute's Python Linter](https://pep8ci.herokuapp.com/). Only 7 times  `# noqa` has been applied to python lines longer than 79 characters.
 
 <details>
 <summary>Manage.py</summary>

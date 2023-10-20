@@ -1,4 +1,10 @@
-from django.shortcuts import render, redirect, reverse, HttpResponse, get_object_or_404  # noqa
+from django.shortcuts import (
+    render,
+    redirect,
+    reverse,
+    HttpResponse,
+    get_object_or_404
+)
 from django.contrib import messages
 
 from festivals.models import Festival
@@ -22,7 +28,8 @@ def add_to_bag(request, item_id):
 
     if item_id in list(bag.keys()):
         bag[item_id] += quantity
-        messages.success(request, f'Updated {festival.name} quantity to {bag[item_id]}.')  # noqa
+        messages.success(request, f'Updated {festival.name} \
+                        quantity to {bag[item_id]}.')
     else:
         bag[item_id] = quantity
         messages.success(request, f'Added {festival.name} to your bag.')
@@ -41,7 +48,8 @@ def adjust_bag(request, item_id):
 
     if quantity > 0:
         bag[item_id] = quantity
-        messages.success(request, f'Updated {festival.name} quantity to {bag[item_id]}.')    # noqa
+        messages.success(request, f'Updated {festival.name} \
+                        quantity to {bag[item_id]}.')
     else:
         bag.pop(item_id)
         messages.success(request, f'Removed {festival.name} from your bag.')
@@ -60,7 +68,8 @@ def remove_from_bag(request, item_id):
 
         if item_id in bag:
             bag.pop(item_id)
-            messages.success(request, f'Removed {festival.name} from your bag.')  # noqa
+            messages.success(request, f'Removed {festival.name} \
+                            from your bag.')
 
         request.session['bag'] = bag
         return HttpResponse(status=200)

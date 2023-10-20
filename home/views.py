@@ -25,14 +25,18 @@ def contact(request):
         if form.is_valid():
             name = request.POST.get('name')
             form.save()
-            messages.success(request, f'The form has been successfully submitted. We will not take long to get in touch with you. Thank you, {name}!')
+            messages.success(request, f'The form has \
+                been successfully submitted. We will not take \
+                    long to get in touch with you. Thank you, {name}!')
             return redirect(request.path)
     else:
         form = Contact()
 
     return render(request, 'home/contact.html', {'form': form})
 
+
 def newsletter(request):
-    """ Newsletter for users who want to be informed about new festivals, news..."""
+    """ Newsletter for users who want to be \
+        informed about new festivals, news..."""
 
     return render(request, 'home/newsletter.html')
