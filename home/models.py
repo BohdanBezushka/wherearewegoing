@@ -2,6 +2,7 @@ from django.db import models
 
 # This model is for handling queries, incidents and other questions from users.
 
+
 class ContactForm(models.Model):
     name = models.CharField(max_length=30)
     email = models.EmailField()
