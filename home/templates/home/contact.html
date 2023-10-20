@@ -33,23 +33,23 @@
                     {% csrf_token %}
                     <p>Would you like to be contacted?</p>
                     <div class="form-group">
-                        <input type="text" name="name" class="form-control" placeholder="Your name">
+                        <input type="text" name="name" class="form-control" placeholder="Your name"  required>
                     </div>
                     <div class="form-group">
-                        <input type="email" name="email" class="form-control" placeholder="E-mail address">
+                        <input type="email" name="email" class="form-control" placeholder="E-mail address"  required>
                     </div>
                     <div class="form-group">
-                        <input type="text" name="phone" class="form-control" placeholder="Phone">
+                        <input type="text" name="phone" class="form-control" placeholder="Phone"  required>
                     </div>
                     <div class="form-group">
-                        <input type="text" name="title" class="form-control" placeholder="Title">
+                        <input type="text" name="title" class="form-control" placeholder="Title"  required>
                     </div>
                     <div class="form-group">
-                        <textarea name="description" class="form-control" placeholder="Description"></textarea>
+                        <textarea name="description" class="form-control" placeholder="Description"  required></textarea>
                     </div>
                     <div class="form-group">
                         <p>Select contact method:</p>
-                        <select name="contact_method" class="form-control">
+                        <select name="contact_method" class="form-control"  required>
                             <option value="call">Call</option>
                             <option value="message">Send Message</option>
                         </select>
