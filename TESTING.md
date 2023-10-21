@@ -27,7 +27,7 @@ HTML code was tested using the [W3C Validator](https://validator.w3.org/) via te
 ![HTML Validation for Home Page](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/fc9afcee-c9a2-467d-9f98-60ebece18e18)
 
 * The <li> error persists but it is inside a <ul>.
-* The ID error isn't changed because I need the same code for the mobile version.
+* The ID error hasn't changed because I need the same code for the mobile version.
 
 These two errors will be present in all tests because they correspond to the header.
 </details>
@@ -296,7 +296,7 @@ _____
 
 # Lighthouse
 
-[Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) was used to audit the website for performance, accessibility, best practice and SEO.  This was run in Chrome DevTools in incognito mode.
+[Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) was used to audit the website for performance, accessibility, best practices and SEO.  This was run in Chrome DevTools in incognito mode.
 
 The following are the results for all pages:
 
@@ -1044,6 +1044,7 @@ All Tests Passed
 |--------------------|--------------------|-------------------|
 |Success Toast 	| View		| displays just below the navbar, including order no. & email address|
 |Order Confirmation Information | view | displays festival names, quantity, totals, delivery info & email address | 
+|Email Confirmation | view | user receives a confirmation in his email address | 
 | Keep watching festivals! button | hover over | changes colour border |
 |		| click / tap | directs to Festival Shop Page |
 
@@ -1155,6 +1156,8 @@ All Tests Passed
 | Feature	 | Action 	| Effect 		|
 |--------------------|--------------------|-------------------|
 | Contact info	| view | display contact info | 	
+| Contact form | view | display form |
+|	Submit button	| click / tap | submit form, success message appears|
 | Return to shop button | hover over | changes colour border, address shows shop |
 |		| click / tap | directs to Festival Shop Page |
 
