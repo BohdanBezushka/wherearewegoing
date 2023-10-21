@@ -145,6 +145,7 @@ For the administrator:
 - To be able to delete festivals via the administration panel.
 - The ability to edit festivals via the administration panel.
 - To be able to see a history of sales.
+- To be able to keep track of questions, issues and other queries through the admin.
 
 [Back to Top](#table-of-contents)
 _____
@@ -180,6 +181,7 @@ This section aims to determine what a user would expect from interacting with th
 * As a Registered Customer, I can edit personal information on my profile, so that I can use the correct details when processing future orders.
 * As a User, I can navigate to the About page, so that I can learn more about the shop owner.
 * As a User, I can easily navigate back to the top of the page with one click, so that I can easily access other parts of the website.
+* As a user, I can send my inquiries to the company and have them contact me via email or phone call.
 * As a user, I receive the tickets via email, each accompanied by a unique identification code, so that I can have secure access to the event.--- It's not completed
 * As a User, I can connect with my social media account, so that I can easily create an account. --- It's not completed
 
@@ -188,15 +190,16 @@ This section aims to determine what a user would expect from interacting with th
 * As a Business Owner, I can use the Admin interface to add, update, view and delete festivals so that I can populate the online shop.
 * As a Business Owner, I can add a festival via the UI, so that I can add new items to my store.
 * As a Business Owner, I can edit/update a festival via the UI, so that I can change the festival price, description, image and other festival criteria.
-* As a Business Owner, I can delete a festival via the UI, so that remove festivals that are no longer on sale.
+* As a Business Owner, I can delete a festival via the UI, so that I remove festivals that are no longer on sale.
 * As a Business Owner, I can access and review the complete sales history within the Django admin panel, ensuring a comprehensive overview of all past transactions and sales activities.
 * As a Business Owner, I can view, add, delete, and modify festivals in the Django admin panel.
+* As a Business Owner, I can have a database of users' questions and issues.
 * As a Business Owner, I can have my Business Facebook page linked with my website, so that I can connect and interact with my customers directly and potentially extend my reach through posts and other content creation.
 
 **As a Developer:**
 * As a developer, I can add functionality with the plus (+) and minus (-) buttons to the quantity selector, so that the user has a better experience adding products to their basket on mobile.
 * As a developer, I can make sure that customers can confidently provide the information required safely and securely so that they can have a positive experience on the site.
-* As a Developer, I can add metadata, a sitemap and robots.txt file, so that the website can be found and ranked by search engines.
+* As a Developer, I can add metadata, a sitemap and a robots.txt file, so that the website can be found and ranked by search engines.
 * As a Developer, I can build custom error pages, so that the user remains on the site and has a way to get back to the homepage or access navigation.
 
 [Back to Top](#table-of-contents)
@@ -208,7 +211,8 @@ Models define the source of the data stored.  Each model contains the essential 
 <details>
 <summary>Database Schema</summary>
 
-![Database Schema](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/acfa6844-454f-426e-9774-3549a8940b05)
+![Database Schema](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/d7ddd193-ade9-42f3-bfca-2ac9a523705e)
+
 
 </details>
 
@@ -429,13 +433,14 @@ In this section, the user can fill in the form and add their card to complete th
 </details>
 
 ### Contact
-In this section, the user has at his disposal an e-mail address and a telephone number to ask for help, suggestions and opinions.
+In this section, the user has at his disposal an e-mail address and a telephone number to ask for help, suggestions and opinions. The user can also send a form for the company to handle an incident, doubt or other questions.
 
 <details>
 <summary>Contact</summary>
   
     Contact
-![Contact](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/9b0db390-b7ce-4cfc-8ffa-952adc82b12f)
+![Contact](https://github.com/BohdanBezushka/wherearewegoing/assets/94321555/0789c7bc-8d0a-42de-937c-d8348185cc20)
+
 </details>
 
 ### More
